@@ -1,0 +1,31 @@
+## LD4L conversion of MinimalMI_Title.csv ##
+
+## Notes:
+### URIs are examples, and will be different in the converter output.
+
+
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix harvard: <http://data.ld4l.org/harvard/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ld4l: <http://bib.ld4l.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+harvard:nHFAinstance1 a bf:Instance ;
+    bf:title harvard:nHFAtitle1 ;
+    bf:instanceOf harvard:nHFAwork1 .
+        
+harvard:nHFAtitle1 a bf:Title ;
+    rdfs:label "The fur coat club" .
+    
+harvard:HFAwork1 a bf:Work ;
+    bf:hasInstance harvard:nHFAinstance1 ;
+    bf:identifiedBy harvard:nHFAidentifier1 ;
+    bf:hasTitle harvard:nHFAtitle2 .
+	
+harvard:nHFAtitle2 a bf:Title ;
+    rdfs:label "The fur coat club" .
+    
+harvard:nHFAidentifier1 a bf:Local ;
+    rdf:value "9386" .
