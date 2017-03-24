@@ -6,7 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<-- Classes -->
+# Classes
 
 mi:ConditionDefect a owl:Class ;
     rdfs:label "condition defect" ;
@@ -15,3 +15,60 @@ mi:ConditionDefect a owl:Class ;
 mi:Caution a owl:Class ;
     rdfs:label "caution" ;
     rdfs:comment "Cautions for moving image material use" .	
+	
+	
+# Condition defect individuals
+
+mi:EdgeDamage a mi:ConditionDefect ;
+    rdfs:label "edge damage" .
+
+mi:Dirty a mi:ConditionDefect ;
+    rdfs:label "dirty" . 
+
+mi:Brittle a mi:ConditionDefect ;
+    rdfs:label "brittle" . 
+
+mi:WaxyFlaky a mi:ConditionDefect ;
+    rdfs:label "waxy/flaky" . 
+
+mi:Scratches a mi:ConditionDefect ;
+    rdfs:label "scratches" . 
+
+mi:SprocketDamage a mi:ConditionDefect ;
+    rdfs:label "sprocket damage" . 
+	
+mi:ExtensiveRepairs a mi:ConditionDefect ;
+    rdfs:label "extensive repairs/many splices" . 
+
+mi:Shrunken a mi:ConditionDefect ;
+    rdfs:label "shrunken of 0.5%" . 
+	
+mi:Curl a mi:ConditionDefect ;
+    rdfs:label "curl" . 
+
+mi:Blotchy a mi:ConditionDefect ;
+    rdfs:label "blotchy (oil or vinegar)" . 
+	
+mi:PerforationDamage a mi:ConditionDefect ;
+    rdfs:label "perforation damage" . 
+	
+mi:ColorFade a mi:ConditionDefect ;
+    rdfs:label "color fade/b&w contrast" . 
+	
+mi:Spliced a mi:ConditionDefect ;
+    rdfs:label "spliced" . 
+	
+mi:PoorSound a mi:ConditionDefect ;
+    rdfs:label "poor sound" . 
+	
+mi:BurnMarks a mi:ConditionDefect ;
+    rdfs:label "burn marks" . 
+
+mi:Discolored a mi:ConditionDefect ;
+    rdfs:label "discolored" . 
+
+mi:StickyTape a mi:ConditionDefect ;
+    rdfs:label "sticky tape splices" . 
+	
+mi:Mold a mi:ConditionDefect ;
+    rdfs:label "mold" . 
