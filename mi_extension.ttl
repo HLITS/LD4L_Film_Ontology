@@ -72,3 +72,39 @@ mi:StickyTape a mi:ConditionDefect ;
 	
 mi:Mold a mi:ConditionDefect ;
     rdfs:label "mold" . 
+	
+	
+# Caution individuals
+
+mi:Censored a mi:Caution ;
+    rdfs:label "censored" . 
+
+mi:Incomplete a mi:Caution ;
+    rdfs:label "incomplete" . 
+	
+mi:NoEnglish a mi:Caution ;
+    rdfs:label "no English" . 
+
+mi:PrePrint a mi:Caution ;
+    rdfs:label "pre-print material" . 
+	
+mi:SubstandardQuality a mi:Caution ;
+    rdfs:label "substandard quality" . 
+
+mi:Unique a mi:Caution ;
+    rdfs:label "unique" . 
+
+mi:Vinegar a mi:Caution ;
+    rdfs:label "vinegar" . 
+
+mi:SixteenMM a mi:Caution ;
+    rdfs:label "16mm scope" . 
+	
+mi:Cropped a mi:Caution ;
+    rdfs:label "cropped format" . 
+
+mi:DualSystem a mi:Caution ;
+    rdfs:label "dual system" . 
+	
+mi:Pink a mi:Caution ;
+    rdfs:label "pink" . 
