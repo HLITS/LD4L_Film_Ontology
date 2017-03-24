@@ -6,7 +6,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
+<-- Classes -->
+
 mi:ConditionDefect a owl:Class ;
     rdfs:label "condition defect" ;
-    rdfs:comment "The class for physical defects in moving image materials" .
+    rdfs:comment "Physical defects in moving image materials" .
 
+mi:Caution a owl:Class ;
+    rdfs:label "caution" ;
+    rdfs:comment "Cautions for moving image material use" .	
