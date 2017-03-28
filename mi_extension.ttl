@@ -5,6 +5,8 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdacc: <http://rdaregistry.info/termList/RDAColourContent/ > .
 
 # Classes
 
@@ -15,6 +17,10 @@ mi:ConditionDefect a owl:Class ;
 mi:Caution a owl:Class ;
     rdfs:label "caution" ;
     rdfs:comment "Cautions for moving image material use" .	
+	
+mi:Color a owl:Class ;
+	rdfs:label "color" ;
+	rdfs:comment "Characterization of color content in moving image materials" .
 	
 	
 # Condition defect individuals
@@ -108,3 +114,38 @@ mi:DualSystem a mi:Caution ;
 	
 mi:Pink a mi:Caution ;
     rdfs:label "pink" . 
+	
+	
+# Color individuals
+
+mi:bw a mi:Color ;
+	rdfs:label "black & white" ;
+	skos:broader rdacc:1002 .
+	
+mi:bwTinted a mi:Color ;
+	rdfs:label "tinted black & white" ;
+	skos:broader rdacc:1002 .
+	
+mi:bwToned a mi:Color ;
+	rdfs:label "toned black & white" ;
+	skos:broader rdacc:1002 .
+	
+mi:color a mi:Color ;
+	rdfs:label "color" ; 
+	skos:broader rdacc:1003 .
+
+mi:bwColor a mi:Color ;
+	rdfs:label "black & white and color" ;
+	skos:broader mi:color .
+	
+mi:ibTechnicolor a mi:Color ;
+	rdfs:label "color produced by IB Technicolor process" ;
+	skos:broader mi:color  .
+
+mi:kodacolor a mi:Color ;
+	rdfs:label "color produced by Kodacolor process" ;
+	skos:broader mi:color  .
+
+mi:reversal a mi:Color ;
+	rdfs:label "color produced by reversal film" ;
+	skos:broader mi:color  .
