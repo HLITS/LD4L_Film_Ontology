@@ -1,0 +1,87 @@
+HFA tag,LC genre/form,Combine with additional LC genre/form,FAST form,Combine with additional FAST form,Getty genre,Notes
+Non fiction,http://id.loc.gov/authorities/genreForms/gf2011026423,,http://id.worldcat.org/fast/1710269,,http://vocab.getty.edu/aat/300375156,"""Documentaries""?
+"
+Fiction,http://id.loc.gov/authorities/genreForms/gf2011026250,,http://id.worldcat.org/fast/1710264,,,
+Fiction feature,http://id.loc.gov/authorities/genreForms/gf2011026250,http://id.loc.gov/authorities/genreForms/gf2011026247,,,,"Split this: ""feature-length film"", it doesn't specify fiction or non-fiction...: http://id.loc.gov/authorities/genreForms/gf2011026247"
+Feature,http://id.loc.gov/authorities/genreForms/gf2011026247,,http://id.worldcat.org/fast/1710384,,,
+Fiction short,http://id.loc.gov/authorities/genreForms/gf2011026250,http://id.loc.gov/authorities/genreForms/gf2011026570,,,,"Split this: ""Short films"" (nonspecific): http://id.loc.gov/authorities/genreForms/gf2011026570  ""Short fiction"" is a variant term under ""Short stories,"" which is specifically for written prose."
+Nonfiction feature,http://id.loc.gov/authorities/genreForms/gf2011026423,http://id.loc.gov/authorities/genreForms/gf2011026247,http://id.worldcat.org/fast/1710269,http://id.worldcat.org/fast/1710384,,
+Nonfiction short,http://id.loc.gov/authorities/genreForms/gf2011026423,http://id.loc.gov/authorities/genreForms/gf2011026570,http://id.worldcat.org/fast/1710269,http://id.worldcat.org/fast/1710364,,"Split this: ""Short films"" or ""Nonfiction films"": http://id.loc.gov/authorities/genreForms/gf2011026570 or http://id.loc.gov/authorities/genreForms/gf2011026423"
+Animation feature,http://id.loc.gov/authorities/genreForms/gf2011026049,http://id.loc.gov/authorities/genreForms/gf2011026247,http://id.worldcat.org/fast/1726127,http://id.worldcat.org/fast/1710384,,length not specified
+Animation short,http://id.loc.gov/authorities/genreForms/gf2011026049,http://id.loc.gov/authorities/genreForms/gf2011026570,http://id.worldcat.org/fast/1726127,http://id.worldcat.org/fast/1710364,,
+Experimental feature,http://id.loc.gov/authorities/genreForms/gf2011026235,http://id.loc.gov/authorities/genreForms/gf2011026247,http://id.worldcat.org/fast/1710354,http://id.worldcat.org/fast/1710384,http://vocab.getty.edu/aat/300263845,length not specified
+Experimental short,http://id.loc.gov/authorities/genreForms/gf2011026235,http://id.loc.gov/authorities/genreForms/gf2011026570,http://id.worldcat.org/fast/1710354,http://id.worldcat.org/fast/1710364,http://vocab.getty.edu/aat/300263845,length not specified
+Short,http://id.loc.gov/authorities/genreForms/gf2011026570,,http://id.worldcat.org/fast/1710364,,http://vocab.getty.edu/aat/300263846,"""Short subjects""?"
+Feature,http://id.loc.gov/authorities/genreForms/gf2011026247,,http://id.worldcat.org/fast/1710384,,http://vocab.getty.edu/aat/300263847,
+Excerpt,http://id.loc.gov/authorities/genreForms/gf2011026256,,http://id.worldcat.org/fast/1726130,,,"for parts, usually complete scenes or sequences, extracted from a complete film. Short segments, usually incomplete scenes, of films are entered under [Film clips.]"
+Serial,http://id.loc.gov/authorities/genreForms/gf2011026260,,http://id.worldcat.org/fast/1726245,,http://vocab.getty.edu/aat/300266334,
+Action,http://id.loc.gov/authorities/genreForms/gf2011026005,,,,,LC: Action and adventure
+Adaptations,http://id.loc.gov/authorities/genreForms/gf2011026254,,,,http://vocab.getty.edu/aat/300202501,
+Adventure,http://id.loc.gov/authorities/genreForms/gf2011026005,,,,,LC: Action and adventure
+Advertisement,http://id.loc.gov/authorities/genreForms/gf2011026470,,,,,maybe promotional films? http://id.loc.gov/authorities/genreForms/gf2011026470
+Animation,http://id.loc.gov/authorities/genreForms/gf2011026049,,,,,"LC: heading for films that create the illusion of movement in drawings, clay, inanimate objects, or the like, through an animation technique."
+Avant garde,,,,,,"same as ""experimental?"""
+Biographical,http://id.loc.gov/authorities/genreForms/gf2011026089,,,,,"""fiction or nonfiction films that depict lives of real people"""
+Children's,http://id.loc.gov/authorities/genreForms/gf2011026123,,,,,
+Comedy,http://id.loc.gov/authorities/genreForms/gf2011026147,,,,,
+Crime,http://id.loc.gov/authorities/genreForms/gf2011026177,,,,,
+Drama,http://id.loc.gov/authorities/genreForms/gf2014026297,,,,,
+Educational,http://id.loc.gov/authorities/genreForms/gf2011026219,,,,,
+Erotica,http://id.loc.gov/authorities/genreForms/gf2011026227,,,,,
+Essay,,,,,,
+Ethnographic,http://id.loc.gov/authorities/genreForms/gf2011026232,,,,,
+Experimental,http://id.loc.gov/authorities/genreForms/gf2011026235,,,,,"
+"
+Fantasy,http://id.loc.gov/authorities/genreForms/gf2011026242,,http://id.worldcat.org/fast/1710306,,,
+Film noir,http://id.loc.gov/authorities/genreForms/gf2011026257,,,,http://vocab.getty.edu/aat/300263882,also form/genre: http://id.loc.gov/authorities/subjects/sh2007025234
+Historical drama,http://id.loc.gov/authorities/genreForms/gf2011026311,,,,,Historical films: This heading is used as a genre/form heading for fictional films that portray historical events or famous people.
+Home movie,http://id.loc.gov/authorities/genreForms/gf2011026038,,,,,"form/genre for ""amateur films"" which are described as ""Home movies ; Home videos ; Personal films"""
+Horror,http://id.loc.gov/authorities/genreForms/gf2011026321,,,,http://vocab.getty.edu/aat/300375154,
+Industrial,http://id.loc.gov/authorities/genreForms/gf2011026329,,,,,"LC: Nonfiction work concerned with illustrating and explaining industrial and manufacturing processes or issues. Generally distributed nontheatrically and designed for in-house educational or promotional purposes, many such works are sponsored by a concerned business or organization"
+Melodramas,http://id.loc.gov/authorities/genreForms/gf2011026393,,,,http://vocab.getty.edu/aat/300375153,
+Music video,http://id.loc.gov/authorities/genreForms/gf2011026413,,,,,
+Musical,http://id.loc.gov/authorities/genreForms/gf2011026272,,,,,this form/genre is for filmed musicals only
+Newsreel,http://id.loc.gov/authorities/genreForms/gf2011026420,,,,,
+Outtakes,http://id.loc.gov/authorities/genreForms/gf2011026435,,,,,This heading is used as a genre/form heading for excerpts from films and television programs usually excluded from the final versions of completed films or programs.
+Propaganda,http://id.loc.gov/authorities/genreForms/gf2011026472,,,,,
+Romance,http://id.loc.gov/authorities/genreForms/gf2011026543,,,,,
+Science fiction,http://id.loc.gov/authorities/genreForms/gf2011026556,,,,http://vocab.getty.edu/aat/300375155,
+Snipe,http://id.loc.gov/authorities/genreForms/gf2011026688,,,,,"Short ad, preview of theater offerings, including specific local events; ""coming attractions"" or ""feature presentation""; can be a tag for previews, etc"
+Social critique,http://id.loc.gov/authorities/genreForms/gf2011026589,,,,,
+Surreal,http://id.loc.gov/authorities/genreForms/gf2011026625,,http://id.worldcat.org/fast/1726233,,,surrealist films identifier
+Suspense,http://id.loc.gov/authorities/genreForms/gf2011026692,,,,,"URN is for ""Thrillers (motion pictures)"""
+Trailer,http://id.loc.gov/authorities/subjects/sh2008025512,,,,,
+Video art,,,,,,LCSH: http://id.loc.gov/authorities/subjects/sh85143195
+War film,http://id.loc.gov/authorities/genreForms/gf2011026729,,,,,
+Western,http://id.loc.gov/authorities/genreForms/gf2011026735,,,,http://vocab.getty.edu/aat/300254815,
+Martial arts,http://id.loc.gov/authorities/genreForms/gf2011026388,,,,,
+Exploitation,http://id.loc.gov/authorities/subjects/sh99014985,,,,,
+Other,,,,,,"Liz will look at database and maybe kill all the ""others"""
+Condensed,http://id.loc.gov/authorities/genreForms/gf2014026037,,,,,Are there better options? Example: 20 minute cut of Taxi Driver
+Amateur,http://id.loc.gov/authorities/genreForms/gf2011026038,,,,,
+Anti-war,http://id.loc.gov/authorities/genreForms/gf2011026053,,,,,
+Communism,,,,,http://vocab.getty.edu/aat/300055519,subject
+Detective and mystery,http://id.loc.gov/authorities/subjects/sh2008025519,,,,,
+Feminist,http://id.loc.gov/authorities/genreForms/gf2011026248,,,,,
+Autobiographical,http://id.loc.gov/authorities/genreForms/gf2011026064,,,,,
+Film Excerpts,http://id.loc.gov/authorities/genreForms/gf2011026256,,,,,
+Independent,http://id.loc.gov/authorities/genreForms/gf2011026324,,,,,
+Instructional,http://id.loc.gov/authorities/genreForms/gf2011026333,,,,,
+Kinescope,http://id.loc.gov/authorities/genreForms/gf2011026786,,,,,
+Medical (non-fiction),http://id.loc.gov/authorities/genreForms/gf2011026390,,,,,"URI is for ""Medical films (Motion pictures)"": ""fiction or nonfiction films that feature medical personnel and the practice of medicine."""
+Pornography,http://id.loc.gov/authorities/genreForms/gf2011026460,,,,,
+Queer,,,,,,"There are only genre terms for gay and lesbian ""erotic"" films (you know, because that's the only kind there is). subject?"
+Religion,http://id.loc.gov/authorities/genreForms/gf2011026526,,,,,"see also Christian films, Bible films"
+Science,http://id.loc.gov/authorities/genreForms/gf2011026559,,,,,genre/form heading for films that are intended to educate or inform about science or scientific topics.
+Silent films,http://id.loc.gov/authorities/genreForms/gf2011026575,,,,,
+Social guidance,http://id.loc.gov/authorities/genreForms/gf2011026588,,,,,"URI is for ""Social guidance films"": ""films that guide people, especially teenagers, in proper behavior, dating, personal safety, etc."""
+Sponsored,http://id.loc.gov/authorities/genreForms/gf2011026599,,,,,
+Sports,http://id.loc.gov/authorities/genreForms/gf2011026601,,,,,
+Thriller,http://id.loc.gov/authorities/genreForms/gf2011026692,,,,,same as suspense films
+Travelogues,http://id.loc.gov/authorities/genreForms/gf2011026704,,,,,
+WWII,http://id.loc.gov/authorities/genreForms/gf2011026729,,,,,"URN is for ""war films"" not specific wars; consider also using subject?"
+Dance,http://id.loc.gov/authorities/genreForms/gf2011026472,,,,,
+Surrealist films,http://id.loc.gov/authorities/genreForms/gf2011026625,,,,,
+Serial,http://id.loc.gov/authorities/genreForms/gf2011026260,,,,,genre/form heading for films that were shown in weekly installments and usually featured cliffhanger endings.
+Non-verbal,,,,,,"susan will look up the red balloon: no dice LCSHwise, but will keep looking!"
+Cameraless,http://id.loc.gov/authorities/genreForms/gf2011026107,,,,,
