@@ -18,7 +18,7 @@ mi:Caution a owl:Class ;
     rdfs:label "caution" ;
     rdfs:comment "Cautions for moving image material use" .	
 	
-mi:Color a owl:Class ;
+mi:ColorCharacteristicCharacteristic a owl:Class ;
 	rdfs:label "color" ;
 	rdfs:comment "Characterization of color content in moving image materials" .
 	
@@ -58,7 +58,7 @@ mi:Blotchy a mi:ConditionDefect ;
 mi:PerforationDamage a mi:ConditionDefect ;
     rdfs:label "perforation damage" . 
 	
-mi:ColorFade a mi:ConditionDefect ;
+mi:ColorCharacteristicFade a mi:ConditionDefect ;
     rdfs:label "color fade/b&w contrast" . 
 	
 mi:Spliced a mi:ConditionDefect ;
@@ -118,34 +118,34 @@ mi:Pink a mi:Caution ;
 	
 # Color individuals
 
-mi:bw a mi:Color ;
+mi:BW a mi:ColorCharacteristic ;
 	rdfs:label "black & white" ;
 	skos:broader rdacc:1002 .
 	
-mi:bwTinted a mi:Color ;
+mi:BWtinted a mi:ColorCharacteristic ;
 	rdfs:label "tinted black & white" ;
 	skos:broader rdacc:1002 .
 	
-mi:bwToned a mi:Color ;
+mi:BWtoned a mi:ColorCharacteristic ;
 	rdfs:label "toned black & white" ;
 	skos:broader rdacc:1002 .
 	
-mi:color a mi:Color ;
+mi:Color a mi:ColorCharacteristic ;
 	rdfs:label "color" ; 
 	skos:broader rdacc:1003 .
 
-mi:bwColor a mi:Color ;
+mi:BWcolor a mi:ColorCharacteristic ;
 	rdfs:label "black & white and color" ;
-	skos:broader mi:color .
+	skos:broader mi:Color .
 	
-mi:ibTechnicolor a mi:Color ;
+mi:IBtechnicolor a mi:ColorCharacteristic ;
 	rdfs:label "color produced by IB Technicolor process" ;
-	skos:broader mi:color  .
+	skos:broader mi:Color  .
 
-mi:kodacolor a mi:Color ;
+mi:Kodacolor a mi:ColorCharacteristic ;
 	rdfs:label "color produced by Kodacolor process" ;
-	skos:broader mi:color  .
+	skos:broader mi:Color  .
 
-mi:reversal a mi:Color ;
+mi:Reversal a mi:ColorCharacteristic ;
 	rdfs:label "color produced by reversal film" ;
-	skos:broader mi:color  .
+	skos:broader mi:Color  .
