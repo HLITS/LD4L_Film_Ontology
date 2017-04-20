@@ -1,0 +1,46 @@
+diff --git a/mi_extension.ttl b/mi_extension.ttl
+index dbc125b..64ad376 100644
+--- a/mi_extension.ttl
++++ b/mi_extension.ttl
+@@ -14,11 +14,19 @@ mi:ConditionDefect a owl:Class ;
+     rdfs:label "condition defect" ;
+     rdfs:comment "Physical defects in moving image materials" .
+ 
++mi:ConditionGrade a owl:Class ;
++    rdfs:label "condition grade" ;
++    rdfs:comment "General condition of moving image materials" .	
++	
+ mi:Caution a owl:Class ;
+     rdfs:label "caution" ;
+     rdfs:comment "Cautions for moving image material use" .	
+ 	
++<<<<<<< HEAD
+ mi:ColorCharacteristicCharacteristic a owl:Class ;
++=======
++mi:ColorCharacteristic a owl:Class ;
++>>>>>>> develop
+ 	rdfs:label "color" ;
+ 	rdfs:comment "Characterization of color content in moving image materials" .
+ 	
+@@ -78,7 +86,21 @@ mi:StickyTape a mi:ConditionDefect ;
+ 	
+ mi:Mold a mi:ConditionDefect ;
+     rdfs:label "mold" . 
++
++# Condition grade individuals
++
++mi:ExcellentCondition a mi:ConditionGrade ; 
++    rdfs:label "excellent" ;
++	rdfs:comment "excellent condition as defined by local standards of Harvard Film Archive" .
++
++mi:GoodCondition a mi:ConditionGrade ; 
++    rdfs:label "good" .
++
++mi:AcceptableCondition a mi:ConditionGrade ; 
++    rdfs:label "acceptable" .
+ 	
++mi:PoorCondition a mi:ConditionGrade ; 
++    rdfs:label "poor" .
+ 	
+ # Caution individuals
+ 
