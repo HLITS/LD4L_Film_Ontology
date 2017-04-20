@@ -22,11 +22,7 @@ mi:Caution a owl:Class ;
     rdfs:label "caution" ;
     rdfs:comment "Cautions for moving image material use" .	
 	
-<<<<<<< HEAD
-mi:ColorCharacteristicCharacteristic a owl:Class ;
-=======
 mi:ColorCharacteristic a owl:Class ;
->>>>>>> develop
 	rdfs:label "color" ;
 	rdfs:comment "Characterization of color content in moving image materials" .
 	
@@ -66,7 +62,7 @@ mi:Blotchy a mi:ConditionDefect ;
 mi:PerforationDamage a mi:ConditionDefect ;
     rdfs:label "perforation damage" . 
 	
-mi:ColorCharacteristicFade a mi:ConditionDefect ;
+mi:ColorFade a mi:ConditionDefect ;
     rdfs:label "color fade/b&w contrast" . 
 	
 mi:Spliced a mi:ConditionDefect ;
