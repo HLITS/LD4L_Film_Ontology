@@ -26,6 +26,20 @@ mi:ColorCharacteristic a owl:Class ;
 	rdfs:label "color" ;
 	rdfs:comment "Characterization of color content in moving image materials" .
 	
+# Activity Classes
+# comment out if added to <http://bib.ld4l.org/ontology/> 
+	
+mi:PurchaseActivity a bib:AcquisitionActivity ;
+	rdfs:label "Purchase" ;
+	rdfs:comment "The activity of purchasing a resource" .
+
+mi:UseActivity a bib:Activity ;
+	rdfs:label "Use" ;
+	rdfs:comment "The activity of using a resource" .
+	
+mi:ScreenerActivity a mi:UseActivity ;
+	rdfs:label "Screen" ;
+	rdfs:comment "The activity of screening a moving image resource" .
 	
 # Condition defect individuals
 
