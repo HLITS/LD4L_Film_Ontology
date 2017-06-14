@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:isni="http://isni.org/ontology#" xmlns:voaf="http://purl.org/vocommons/voaf#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dct="http://purl.org./dc/terms/">
+
+<!-- ISNI RDF Schema -->
+
+	<!-- Properties -->
+	<rdf:Property rdf:about="http://isni.org/ontology#identifierValid">
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DataProperty" />
+		<rdfs:subPropertyOf rdf:resource="http://purl.org./dc/terms/identifier" />
+		<rdfs:label xml:lang="en">Valid ISNI Identifier</rdfs:label>
+		<rdfs:comment xml:lang="en">The valid ISNI identifier for a Public Identity as opposed to any deprecated ISNI</rdfs:comment>
+		<rdfs:comment xml:lang="en">The valid identifier should be given as a string (16 digits) without blank spaces</rdfs:comment>
+		<rdfs:domain rdf:resource="http://isni.org/ontology#PublicIdentity" />
+		<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+		<rdfs:isDefinedBy rdf:resource="http://isni.org/ontology#" />
+	</rdf:Property>
+
+</rdf:RDF>
