@@ -1,25 +1,26 @@
 @prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix metal: <http://harvcore.org/ontology/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://localhost:8080/bibframe/individual/nc9ae2c2044176e2>
-        a         bf:Instance ;
-        bf:title  <http://localhost:8080/bibframe/individual/ne9a21478e2cda2dd> .
-
-<http://localhost:8080/bibframe/individual/n11d395865142849f>
+<http://localhost:8080/bibframe/individual/n97e4eb5a93aeef87>
         a                bf:MovingImage ;
-        bf:hasInstance   <http://localhost:8080/bibframe/individual/nc9ae2c2044176e2> ;
-        bf:identifiedBy  <http://localhost:8080/bibframe/individual/n1e3533b13687b67f> ;
-        bf:title         <http://localhost:8080/bibframe/individual/ned861a9f50cf6a84> .
+        bf:hasInstance   <http://localhost:8080/bibframe/individual/nb208bf4272d292f4> ;
+        bf:identifiedBy  <http://localhost:8080/bibframe/individual/n7e52bf2c68426a85> ;
+        bf:title         <http://localhost:8080/bibframe/individual/n1d192dcdcd63ae8b> .
 
-<http://localhost:8080/bibframe/individual/ned861a9f50cf6a84>
+<http://localhost:8080/bibframe/individual/n1d192dcdcd63ae8b>
         a           bf:Title ;
-        rdfs:label  "The tin drum" .
+        rdfs:label  "The Fur coat club" .
 
-<http://localhost:8080/bibframe/individual/ne9a21478e2cda2dd>
+<http://localhost:8080/bibframe/individual/nb208bf4272d292f4>
+        a         bf:Instance ;
+        bf:title  <http://localhost:8080/bibframe/individual/n5471f9476f5b9b95> .
+
+<http://localhost:8080/bibframe/individual/n5471f9476f5b9b95>
         a           bf:Title ;
-        rdfs:label  "The tin drum" .
+        rdfs:label  "The Fur coat club" .
 
-<http://localhost:8080/bibframe/individual/n1e3533b13687b67f>
+<http://localhost:8080/bibframe/individual/n7e52bf2c68426a85>
         a          metal:HGLID ;
-        rdf:value  "0000000004" .
+        rdf:value  "0000009386" .
