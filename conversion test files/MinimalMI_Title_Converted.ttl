@@ -22,5 +22,5 @@
         rdfs:label  "The Fur coat club" .
 
 <http://localhost:8080/bibframe/individual/n7e52bf2c68426a85>
-        a          metal:HGLID ;
+        a          metal:HFANumber ;
         rdf:value  "0000009386" .
