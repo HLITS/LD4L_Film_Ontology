@@ -23,14 +23,28 @@ mi:Caution a owl:Class ;
     rdfs:comment "Cautions for moving image material use" .	
 	
 mi:ColorCharacteristic a owl:Class ;
-    rdfs:label "color" ;
-    rdfs:comment "Characterization of color content in moving image materials" .
-
+	rdfs:label "color" ;
+	rdfs:comment "Characterization of color content in moving image materials" .
+	
 mi:ImdbNumber a bf:Identifier ;
     rdfs:label "IMDb identifier" ;
     rdfs:comment "A unique idenfitifier for a moving image work as defined by the Internet Movie Database" .
 	
+# Activity Classes
+# comment out if added to <http://bib.ld4l.org/ontology/> 
+	
+mi:PurchaseActivity a bib:AcquisitionActivity ;
+	rdfs:label "Purchase" ;
+	rdfs:comment "The activity of purchasing a resource" .
 
+mi:UseActivity a bib:Activity ;
+	rdfs:label "Use" ;
+	rdfs:comment "The activity of using a resource" .
+	
+mi:ScreenerActivity a mi:UseActivity ;
+	rdfs:label "Screen" ;
+	rdfs:comment "The activity of screening a moving image resource" .
+	
 # Condition defect individuals
 
 mi:EdgeDamage a mi:ConditionDefect ;
@@ -66,7 +80,7 @@ mi:Blotchy a mi:ConditionDefect ;
 mi:PerforationDamage a mi:ConditionDefect ;
     rdfs:label "perforation damage" . 
 	
-mi:ColorCharacteristicFade a mi:ConditionDefect ;
+mi:ColorFade a mi:ConditionDefect ;
     rdfs:label "color fade/b&w contrast" . 
 	
 mi:Spliced a mi:ConditionDefect ;
