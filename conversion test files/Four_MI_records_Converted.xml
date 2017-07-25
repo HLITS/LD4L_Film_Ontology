@@ -1,0 +1,104 @@
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+
+<http://localhost:8080/bibframe/individual/ncee9418d44ae8376>
+        a                bf:MovingImage ;
+        bf:hasInstance   <http://localhost:8080/bibframe/individual/nb3a853bf36ed1a04> ;
+        bf:identifiedBy  <http://localhost:8080/bibframe/individual/n322cb6b8c916f1c0> ;
+        bf:title         <http://localhost:8080/bibframe/individual/n8ed200a862e8b410> .
+
+<http://localhost:8080/bibframe/individual/n322cb6b8c916f1c0>
+        a          metal:HFANumber ;
+        rdf:value  "0000005233" .
+
+<http://localhost:8080/bibframe/individual/n8ed200a862e8b410>
+        a           bf:Title ;
+        rdfs:label  "West Indies" .
+
+<http://localhost:8080/bibframe/individual/nb3a853bf36ed1a04>
+        a         bf:Instance ;
+        bf:title  <http://localhost:8080/bibframe/individual/nf7358c0ff693c12a> .
+
+<http://localhost:8080/bibframe/individual/nf7358c0ff693c12a>
+        a           bf:Title ;
+        rdfs:label  "West Indies" .
+
+
+<http://localhost:8080/bibframe/individual/na3b995214c542a96>
+        a                bf:MovingImage ;
+        bf:hasInstance   <http://localhost:8080/bibframe/individual/n130c25b5b9976afe> ;
+        bf:identifiedBy  <http://localhost:8080/bibframe/individual/na83e0de3b0d745a1> ;
+        bf:title         <http://localhost:8080/bibframe/individual/n8c4db408931a7bd> .
+
+<http://localhost:8080/bibframe/individual/na83e0de3b0d745a1>
+        a          metal:HFANumber ;
+        rdf:value  "0000013800" .
+
+<http://localhost:8080/bibframe/individual/n8c4db408931a7bd>
+        a           bf:Title ;
+        rdfs:label  "[Electrocuted film loops]" .
+
+<http://localhost:8080/bibframe/individual/n130c25b5b9976afe>
+        a         bf:Instance ;
+        bf:title  <http://localhost:8080/bibframe/individual/n2fe3bf7a7758ba5> .
+
+<http://localhost:8080/bibframe/individual/n2fe3bf7a7758ba5>
+        a           bf:Title ;
+        rdfs:label  "[Electrocuted film loops]" .
+
+
+<http://localhost:8080/bibframe/individual/n5589ee9b6e1e20d6>
+        a                bf:MovingImage ;
+        bf:hasInstance   <http://localhost:8080/bibframe/individual/n27bc204d265a0f4b> ;
+        bf:identifiedBy  <http://localhost:8080/bibframe/individual/nfc7773048aa3afcc> ;
+        bf:title         <http://localhost:8080/bibframe/individual/nbaf484f44eb0f497> .
+
+<http://localhost:8080/bibframe/individual/nfc7773048aa3afcc>
+        a          metal:HFANumber ;
+        rdf:value  "0000009386" .
+
+<http://localhost:8080/bibframe/individual/nbaf484f44eb0f497>
+        a           bf:Title ;
+        rdfs:label  "The Fur coat club" .
+
+<http://localhost:8080/bibframe/individual/n27bc204d265a0f4b>
+        a         bf:Instance ;
+        bf:title  <http://localhost:8080/bibframe/individual/nd612f268acc527c8> .
+
+<http://localhost:8080/bibframe/individual/nd612f268acc527c8>
+        a           bf:Title ;
+        rdfs:label  "The Fur coat club" .
+
+
+<http://localhost:8080/bibframe/individual/ncb03af465cbf1c97>
+        a                bf:MovingImage ;
+        bf:hasInstance   <http://localhost:8080/bibframe/individual/na434925e943043e1> ;
+        bf:identifiedBy  <http://localhost:8080/bibframe/individual/n89a6634c2df8bc9> ;
+        bf:title         <http://localhost:8080/bibframe/individual/n8a2d3b089baf21d7> .
+
+<http://localhost:8080/bibframe/individual/n89a6634c2df8bc9>
+        a          metal:HFANumber ;
+        rdf:value  "0000034836" .
+
+<http://localhost:8080/bibframe/individual/n8a2d3b089baf21d7>
+        a           bf:Title ;
+        rdfs:label  "Taxi driver - condensed feature" .
+
+<http://localhost:8080/bibframe/individual/na434925e943043e1>
+        a         bf:Instance ;
+        bf:title  <http://localhost:8080/bibframe/individual/ne744c542162a1a2f> .
+
+<http://localhost:8080/bibframe/individual/ne744c542162a1a2f>
+        a           bf:Title ;
+        rdfs:label  "Taxi driver - condensed feature" .
