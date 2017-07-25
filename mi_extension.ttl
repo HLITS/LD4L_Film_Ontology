@@ -26,6 +26,10 @@ mi:ColorCharacteristic a owl:Class ;
 	rdfs:label "color" ;
 	rdfs:comment "Characterization of color content in moving image materials" .
 	
+mi:ImdbNumber a bf:Identifier ;
+    rdfs:label "IMDb identifier" ;
+    rdfs:comment "A unique idenfitifier for a moving image work as defined by the Internet Movie Database" .
+	
 # Activity Classes
 # comment out if added to <http://bib.ld4l.org/ontology/> 
 	
