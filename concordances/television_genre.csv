@@ -1,6 +1,4 @@
 HFA tag,LC genre/form,Combine with additional LC genre/form,FAST form,Combine with additional FAST form,Getty genre,New class
-Television programs,,,,,,mi:TelevisionProgram
-Television program,,,,,,mi:TelevisionProgram
 Serial,http://id.loc.gov/authorities/genreForms/gf2011026680,,http://id.worldcat.org/fast/1710566,,,
 Action,http://id.loc.gov/authorities/genreForms/gf2011026006,,http://id.worldcat.org/fast/1726304,,,mi:ActionMovingImage
 Adaptations,http://id.loc.gov/authorities/genreForms/gf2011026653,,http://id.worldcat.org/fast/1710478,,,
@@ -12,7 +10,6 @@ Biographical,http://id.loc.gov/authorities/genreForms/gf2011026091,,http://id.wo
 Children's,http://id.loc.gov/authorities/genreForms/gf2011026127,,http://id.worldcat.org/fast/1920774,,,
 Comedy,http://id.worldcat.org/fast/1710440,,http://id.worldcat.org/fast/1710440,,,
 Crime,http://id.loc.gov/authorities/genreForms/gf2011026658,,http://id.worldcat.org/fast/1710490,,,
-Drama,,,,,,mi:DramaMovingImage
 Educational,http://id.loc.gov/authorities/genreForms/gf2014026114,,,,,
 Erotica,http://id.loc.gov/authorities/genreForms/gf2011026228,,http://id.worldcat.org/fast/1710303,,,
 Essay,http://id.loc.gov/authorities/genreForms/gf2011026590,,http://id.worldcat.org/fast/1710453,,,
@@ -29,7 +26,6 @@ Propaganda,http://id.loc.gov/authorities/genreForms/gf2011026473,,http://id.worl
 Romance,http://id.loc.gov/authorities/genreForms/gf2011026544,,http://id.worldcat.org/fast/1710333,,,
 Science fiction,http://id.loc.gov/authorities/genreForms/gf2011026558,,http://id.worldcat.org/fast/1108632,,,
 Social critique,http://id.loc.gov/authorities/genreForms/gf2011026590,,http://id.worldcat.org/fast/1710453,,,
-Surreal,,,,,,mi:SurrealMovingImage
 Suspense,http://id.loc.gov/authorities/genreForms/gf2011026694,,http://id.worldcat.org/fast/1726194,,,mi:SuspenseMovingImage
 Trailer,http://id.loc.gov/authorities/genreForms/gf2011026263,,http://id.worldcat.org/fast/1726183,,,
 War film,http://id.loc.gov/authorities/genreForms/gf2011026731,,http://id.worldcat.org/fast/1710403,,,
@@ -37,7 +33,6 @@ Western,http://id.loc.gov/authorities/genreForms/gf2011026737,,http://id.worldca
 Martial arts,http://id.loc.gov/authorities/genreForms/gf2011026389,,http://id.worldcat.org/fast/1710570,,,
 Anti-war,http://id.loc.gov/authorities/genreForms/gf2011026731,,http://id.worldcat.org/fast/1710403,,,mi:AntiWarMovingImage
 Detective and mystery,http://id.loc.gov/authorities/genreForms/gf2011026197,,http://id.worldcat.org/fast/1710488,,,mi:DetectiveMysteryMovingImage
-Feminist,,,,,,mi:FeministMovingImage
 Autobiographical,http://id.loc.gov/authorities/genreForms/gf2011026065,,http://id.worldcat.org/fast/1710465,,,
 Instructional,http://id.loc.gov/authorities/genreForms/gf2011026335,,http://id.worldcat.org/fast/1726126,,,
 Kinescope,http://id.loc.gov/authorities/genreForms/gf2011026786,,http://id.worldcat.org/fast/1910788,,,
@@ -50,5 +45,4 @@ Thriller,http://id.loc.gov/authorities/genreForms/gf2011026694,,http://id.worldc
 Travelogues,http://id.loc.gov/authorities/genreForms/gf2011026706,,http://id.worldcat.org/fast/1726196,,,
 Dance,http://id.worldcat.org/fast/1726284,,http://id.worldcat.org/fast/1726284,,,
 Serial,http://id.loc.gov/authorities/genreForms/gf2011026680,,http://id.worldcat.org/fast/1710566,,,
-Non-verbal,,,,,Nonverbal,
 Cameraless,http://id.loc.gov/authorities/genreForms/gf2011026107,,http://id.worldcat.org/fast/1726187,,,
