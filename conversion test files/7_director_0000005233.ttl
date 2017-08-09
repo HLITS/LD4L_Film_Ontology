@@ -1,0 +1,54 @@
+@prefix schema: <http://schema.org/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://localhost:8080/bibframe/individual/instance1>
+        a         bf:Instance ;
+        bf:title  <http://localhost:8080/bibframe/individual/title1> .
+
+<http://localhost:8080/bibframe/individual/id1>
+        a          metal:HFANumber ;
+        rdf:value  "0000005233" .
+
+<http://localhost:8080/bibframe/individual/title1>
+        a           bf:Title ;
+        rdfs:label  "[Electrocuted film loops]" .
+
+<http://localhost:8080/bibframe/individual/title2>
+        a           bf:Title ;
+        rdfs:label  "[Electrocuted film loops]" .
+
+<http://localhost:8080/bibframe/individual/work1>
+        a                bf:MovingImage ;
+        bf:genreForm     <http://id.loc.gov/authorities/genreForms/gf2011026423> ,
+                         <http://id.worldcat.org/fast/1710269> ,
+                         <http://id.loc.gov/authorities/genreForms/gf2011026235> ,
+                         <http://id.loc.gov/authorities/genreForms/gf2011026570> ,
+                         <http://id.worldcat.org/fast/1710354> ,
+                         <http://id.worldcat.org/fast/1710364> ,
+                         <http://vocab.getty.edu/aat/300263845> ;
+        bf:dcterms:subject <http://id.loc.gov/authorities/subjects/sh85007461> ,
+        				 <http://id.worldcat.org/fast/815177> ;              
+        bf:hasInstance   <http://localhost:8080/bibframe/individual/instance1> ;
+        bf:identifiedBy  <http://localhost:8080/bibframe/individual/id1> ;
+        bf:title         <http://localhost:8080/bibframe/individual/title2> ;
+        bib:hasActivity <http://localhost:8080/bibframe/individual/activity1> .
+        
+<http://localhost:8080/bibframe/individual/activity1> a bib:FilmDirectorActivity ;
+        bf:agent <http://localhost:8080/bibframe/individual/agent1> .
+
+<http://localhost:8080/bibframe/individual/agent1> a bf:Agent ;
+        isni:hasPublicIdentity <http://isni.org/isni/000000007841188X> ;  
+        rdfs:label "Tony Conrad" ;
+        foaf:page <https://en.wikipedia.org/wiki/Tony_Conrad> .
