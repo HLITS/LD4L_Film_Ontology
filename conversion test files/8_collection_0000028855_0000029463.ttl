@@ -46,7 +46,7 @@
         bf:agent <http://localhost:8080/bibframe/individual/agent1> .
 
 <http://localhost:8080/bibframe/individual/agent1> a bf:Agent ;
-        isni:hasPublicIdentity <http://isni.org/isni/000000007841188X> ;  
+        isni:hasPublicIdentity <http://isni.org/isni/0000000460275532> ;  
         rdfs:label "Anne Robertson" .
 
 <http://localhost:8080/bibframe/individual/collection1> a bf:Collection ;
@@ -97,7 +97,7 @@
         bf:agent <http://localhost:8080/bibframe/individual/agent2> .
 
 <http://localhost:8080/bibframe/individual/agent1> a bf:Agent ;
-        isni:hasPublicIdentity <http://isni.org/isni/000000007841188X> ;  
+        isni:hasPublicIdentity <http://isni.org/isni/0000000460275532> ;  
         rdfs:label "Anne Charlotte Robertson" .
 
 <http://localhost:8080/bibframe/individual/collection1> a bf:Collection ;
