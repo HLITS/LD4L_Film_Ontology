@@ -1,0 +1,105 @@
+@prefix schema: <http://schema.org/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+### "Apologies" item number 28855
+
+<http://localhost:8080/bibframe/individual/instance1>
+        a         bf:Instance ;
+        bf:title  <http://localhost:8080/bibframe/individual/title1> ;
+        bf:isPartOf <http://localhost:8080/bibframe/individual/Collection1> .
+
+<http://localhost:8080/bibframe/individual/id1>
+        a          metal:HFANumber ;
+        rdf:value  "00000028855" .
+
+<http://localhost:8080/bibframe/individual/title1>
+        a           bf:Title ;
+        rdfs:label  "Apologies" .
+
+<http://localhost:8080/bibframe/individual/title2>
+        a           bf:Title ;
+        rdfs:label  "Apologies" .
+
+<http://localhost:8080/bibframe/individual/work1>
+        a                bf:MovingImage ;
+        bf:genreForm     <http://id.loc.gov/authorities/genreForms/gf2011026235> ,
+        				 <http://id.worldcat.org/fast/1710354> ;
+        schema:keywords  "Woman filmmaker"@en ;              
+        bf:hasInstance   <http://localhost:8080/bibframe/individual/instance1> ;
+        bf:identifiedBy  <http://localhost:8080/bibframe/individual/id1> ;
+        bf:title         <http://localhost:8080/bibframe/individual/title2> ;
+        bib:hasActivity <http://localhost:8080/bibframe/individual/activity1> .
+        
+<http://localhost:8080/bibframe/individual/activity1> a bib:FilmDirectorActivity ;
+        bf:agent <http://localhost:8080/bibframe/individual/agent1> .
+
+<http://localhost:8080/bibframe/individual/agent1> a bf:Agent ;
+        isni:hasPublicIdentity <http://isni.org/isni/000000007841188X> ;  
+        rdfs:label "Anne Robertson" .
+
+<http://localhost:8080/bibframe/individual/collection1> a bf:Collection ;
+     rdfs:label "Anne Charlotte Robertson Collection" ;
+     bf:hasPart <http://localhost:8080/bibframe/individual/instance1> .
+	 
+	 
+### "Five Year Diary - reel 22: A short affair (and) going crazy" item number 29463
+
+<http://localhost:8080/bibframe/individual/instance2>
+        a         bf:Instance ;
+        bf:title  <http://localhost:8080/bibframe/individual/title3> ;
+        bf:isPartOf <http://localhost:8080/bibframe/individual/Collection1> .
+
+<http://localhost:8080/bibframe/individual/id2>
+        a          metal:HFANumber ;
+        rdf:value  "00000028855" .
+
+<http://localhost:8080/bibframe/individual/title3>
+        a           bf:Title ;
+        rdfs:label  "Five Year Diary - reel 22: A short affair (and) going crazy" .
+
+<http://localhost:8080/bibframe/individual/title4>
+        a           bf:Title ;
+        rdfs:label  "Five Year Diary - reel 22: A short affair (and) going crazy" .
+
+<http://localhost:8080/bibframe/individual/work2>
+        a                bf:MovingImage ;
+        bf:genreForm     <http://id.loc.gov/authorities/genreForms/gf2011026423> ,
+        				 <http://id.loc.gov/authorities/genreForms/gf2011026570> ,
+        				 <http://id.worldcat.org/fast/1710269> ,
+        				 <http://id.worldcat.org/fast/1710364> ,
+        				 <http://id.loc.gov/authorities/genreForms/gf2011026089> ,
+        				 <http://id.worldcat.org/fast/1710277> ,
+        				 <http://id.loc.gov/authorities/genreForms/gf2011026205> , 
+        				 <http://id.worldcat.org/fast/1710390> ,
+        				 <http://id.loc.gov/authorities/genreForms/gf2011026235> ,
+        				 <http://id.worldcat.org/fast/1710354> ,
+        				 <http://id.loc.gov/authorities/genreForms/gf2011026248> ,
+        				 <http://id.worldcat.org/fast/1710425> ;
+        schema:keywords  "Woman filmmaker"@en ;              
+        bf:hasInstance   <http://localhost:8080/bibframe/individual/instance2> ;
+        bf:identifiedBy  <http://localhost:8080/bibframe/individual/id2> ;
+        bf:title         <http://localhost:8080/bibframe/individual/title4> ;
+        bib:hasActivity <http://localhost:8080/bibframe/individual/activity1> .
+        
+<http://localhost:8080/bibframe/individual/activity1> a bib:FilmDirectorActivity ;
+        bf:agent <http://localhost:8080/bibframe/individual/agent2> .
+
+<http://localhost:8080/bibframe/individual/agent1> a bf:Agent ;
+        isni:hasPublicIdentity <http://isni.org/isni/000000007841188X> ;  
+        rdfs:label "Anne Charlotte Robertson" .
+
+<http://localhost:8080/bibframe/individual/collection1> a bf:Collection ;
+     rdfs:label "Anne Charlotte Robertson Collection" ;
+     bf:hasPart <http://localhost:8080/bibframe/individual/instance2> .
