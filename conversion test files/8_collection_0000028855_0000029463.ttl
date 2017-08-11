@@ -63,7 +63,7 @@
 
 <http://localhost:8080/bibframe/individual/id2>
         a          metal:HFANumber ;
-        rdf:value  "00000028855" .
+        rdf:value  "0000029463" .
 
 <http://localhost:8080/bibframe/individual/title3>
         a           bf:Title ;
