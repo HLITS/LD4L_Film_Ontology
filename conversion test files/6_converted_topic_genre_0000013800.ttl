@@ -41,7 +41,7 @@
                          <http://id.loc.gov/authorities/genreForms/gf2011026570> , 
                          <http://id.worldcat.org/fast/1710269> ;
         dcterms:subject  <http://id.worldcat.org/fast/815177> ,
-                         <http://id.loc.gov/authorities/subjects/sh85007461> .
+                         <http://id.loc.gov/authorities/subjects/sh85007461> ;
         bf:hasInstance   <http://localhost:8080/bibframe/individual/ne8fc3af85c9cc37b> ;
         bf:identifiedBy  <http://localhost:8080/bibframe/individual/nac4503cd1d009f3e> ;
-        bf:title         <http://localhost:8080/bibframe/individual/n7927b0e05b1ed11a> ;
+        bf:title         <http://localhost:8080/bibframe/individual/n7927b0e05b1ed11a> .
