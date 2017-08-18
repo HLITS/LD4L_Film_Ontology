@@ -12,6 +12,7 @@
 @prefix bib:   <http://bib.ld4l.org/ontology/> .
 @prefix prov:  <http://www.w3.org/ns/prov#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/isni/> .
 
 <http://localhost:8080/bibframe/individual/instance1>
         a         bf:Instance ;
