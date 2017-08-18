@@ -1,0 +1,60 @@
+@prefix schema: <http://schema.org/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix isni:  <http://isni.org/isni/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://localhost:8080/bibframe/individual/n4514670e5fe12930>
+        a         bf:Instance ;
+        bf:title  <http://localhost:8080/bibframe/individual/n909a5965001c2e74> .
+
+<http://localhost:8080/bibframe/individual/nb2c131e3b6c3c7ae>
+        a          metal:HFANumber ;
+        rdf:value  "0000013800" .
+
+<http://localhost:8080/bibframe/individual/n16f5006c03e9d21a>
+        a           bf:Title ;
+        rdfs:label  "[Electrocuted film loops]" .
+
+<http://localhost:8080/bibframe/individual/n909a5965001c2e74>
+        a           bf:Title ;
+        rdfs:label  "[Electrocuted film loops]" .
+
+<http://localhost:8080/bibframe/individual/n977714e02a5d1c03>
+        a                bf:MovingImage ;
+        bf:genreForm     <http://id.loc.gov/authorities/genreForms/gf2011026570> ,
+                         <http://id.worldcat.org/fast/1710269> ,
+                         <http://id.loc.gov/authorities/genreForms/gf2011026423> , 
+                         <http://id.worldcat.org/fast/1710364> , 
+                         <http://vocab.getty.edu/aat/300263845> , 
+                         <http://vocab.getty.edu/aat/300263846> , 
+                         <http://vocab.getty.edu/aat/300375156> , 
+                         <http://id.loc.gov/authorities/genreForms/gf2011026235> , 
+                         <http://id.worldcat.org/fast/1710354> ;
+        dcterms:subject  <http://id.loc.gov/authorities/subjects/sh85007461> ,
+                         <http://id.worldcat.org/fast/815177> ;
+        bf:hasInstance   <http://localhost:8080/bibframe/individual/n4514670e5fe12930> ;
+        bf:identifiedBy  <http://localhost:8080/bibframe/individual/nb2c131e3b6c3c7ae> ;
+        bf:title         <http://localhost:8080/bibframe/individual/n16f5006c03e9d21a> ;
+        bib:hasActivity  <http://localhost:8080/bibframe/individual/n95c22d7674fc99b4> .
+
+<http://localhost:8080/bibframe/individual/n95c22d7674fc99b4>
+        a             bib:FilmDirectorActivity ;
+        rdfs:label    "Film Director" ;
+        bib:hasAgent  <http://localhost:8080/bibframe/individual/nca9a65b1f2b46231> .
+
+<http://localhost:8080/bibframe/individual/nca9a65b1f2b46231>
+        a                       foaf:Agent ;
+        rdfs:label              "Tony Conrad" ;
+        isni:hasPublicIdentity  isni:000000007841188X ;
+        foaf:page               <https://en.wikipedia.org/wiki/Tony_Conrad> .
