@@ -1,1 +1,82 @@
+@prefix schema: <http://schema.org/> .
+@prefix hl:    <http://localhost:8080/bibframe/individual/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix isni:  <http://isni.org/isni/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix bibdt: <http://bibliotek-o.org/datatypes/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+hl:ned4a65da63ccd81  a   bf:MovingImage ;
+        bib:hasActivity  hl:nd0cc1eb2bf0ecd32 ;
+        bf:genreForm     <http://id.loc.gov/authorities/genreForms/gf2011026235> , <http://id.worldcat.org/fast/1710354> , <http://id.loc.gov/authorities/genreForms/gf2011026570> , <http://vocab.getty.edu/aat/300263846> , <http://id.worldcat.org/fast/1710364> ;
+        bf:hasInstance   hl:nc77a4a9cb3ac0027 ;
+        bf:identifiedBy  hl:ne241c378f020fb7b ;
+        bf:title         hl:n75b2d34c4e52ea5a ;
+        schema:keywords  "Woman filmmaker"@en .
+
+hl:nd0cc1eb2bf0ecd32  a  bib:FilmDirectorActivity ;
+        rdfs:label    "Film Director" ;
+        bib:hasAgent  hl:n274e014947547d7d .
+
+hl:ne241c378f020fb7b  a  metal:HFANumber ;
+        rdf:value  "0000028855" .
+
+hl:n75b2d34c4e52ea5a  a  bf:Title ;
+        rdfs:label  "Apologies" .
+
+hl:nc77a4a9cb3ac0027  a  bf:Instance ;
+        bf:isPartOf  hl:na9182fd4e432dd94 ;
+        bf:title     hl:nd70fcfb1f64e6a19 .
+
+hl:na9182fd4e432dd94  a  bf:Collection ;
+        rdfs:label  "Anne Charlotte Robertson Collection" .
+
+hl:nd70fcfb1f64e6a19  a  bf:Title ;
+        rdfs:label  "Apologies" .
+
+hl:n274e014947547d7d  a         foaf:Agent ;
+        rdfs:label              "Anne Robertson" ;
+        isni:hasPublicIdentity  isni:0000000460275532 ;
+
+
+hl:naa6be16fc642ab20  a  bf:MovingImage ;
+        bib:hasActivity  hl:n45b4a1d024fbbf58 ;
+        bf:genreForm     <http://id.worldcat.org/fast/1710425> , <http://id.worldcat.org/fast/1710277> , <http://id.worldcat.org/fast/1710364> , <http://id.loc.gov/authorities/genreForms/gf2011026248> , <http://id.worldcat.org/fast/1710269> , <http://id.worldcat.org/fast/1710390> , <http://vocab.getty.edu/aat/300263846> , <http://id.worldcat.org/fast/1710354> , <http://id.loc.gov/authorities/genreForms/gf2011026205> , <http://id.loc.gov/authorities/genreForms/gf2011026423> , <http://id.loc.gov/authorities/genreForms/gf2011026235> , <http://id.loc.gov/authorities/genreForms/gf2011026089> , <http://id.loc.gov/authorities/genreForms/gf2011026570> , <http://vocab.getty.edu/aat/300375156> ;
+        bf:hasInstance   hl:nda17c8bb110dc454 ;
+        bf:identifiedBy  hl:nc7c9a46c33ce500b ;
+        bf:title         hl:n176f570edc7ae803 ;
+        schema:keywords  "Non Fiction\t"@en , "Woman filmmaker"@en .
+
+hl:n45b4a1d024fbbf58  a  bib:FilmDirectorActivity ;
+        rdfs:label    "Film Director" ;
+        bib:hasAgent  hl:n7d71f62672972422 .
+
+hl:nc7c9a46c33ce500b  a  metal:HFANumber ;
+        rdf:value  "0000029463" .
+
+hl:n176f570edc7ae803  a  bf:Title ;
+        rdfs:label  "Five Year Diary - reel 22: A short affair (and) going crazy" .
+
+hl:nda17c8bb110dc454  a  bf:Instance ;
+        bf:isPartOf  hl:na9182fd4e432dd94 ;
+        bf:title     hl:n75ad78671229d037 .
+        foaf:page               <> .
+
+hl:n75ad78671229d037  a  bf:Title ;
+        rdfs:label  "Five Year Diary - reel 22: A short affair (and) going crazy" .
+
+hl:n7d71f62672972422  a         foaf:Agent ;
+        rdfs:label              "Anne Charlotte Robertson" ;
+        isni:hasPublicIdentity  isni:0000000460275532 ;
+        foaf:page               <> .
 
