@@ -42,9 +42,9 @@
         bf:identifiedBy  <http://localhost:8080/bibframe/individual/id1> ;
         bf:title         <http://localhost:8080/bibframe/individual/title2> ;
         bib:hasActivity  <http://localhost:8080/bibframe/individual/activity1> ,
-        				 <http://localhost:8080/bibframe/individual/activity2> ,
-						 <http://localhost:8080/bibframe/individual/activity3> ,
-						 <http://localhost:8080/bibframe/individual/activity3> .
+        		<http://localhost:8080/bibframe/individual/activity2> ,
+			<http://localhost:8080/bibframe/individual/activity3> ,
+			<http://localhost:8080/bibframe/individual/activity4> .
         
 <http://localhost:8080/bibframe/individual/activity1> a bib:FilmDirectorActivity ;
         bf:agent <http://localhost:8080/bibframe/individual/agent1> .
@@ -52,10 +52,10 @@
 <http://localhost:8080/bibframe/individual/activity2> a bib:ScreenwriterActivity ;
         bf:agent <http://localhost:8080/bibframe/individual/agent1> .
 		
-<http://localhost:8080/bibframe/individual/activity1> a  bib:CinematographerActivity ;
+<http://localhost:8080/bibframe/individual/activity3> a  bib:CinematographerActivity ;
         bf:agent <http://localhost:8080/bibframe/individual/agent2> .
 		
-<http://localhost:8080/bibframe/individual/activity1> a bib:FilmEditorActivity ;
+<http://localhost:8080/bibframe/individual/activity4> a bib:FilmEditorActivity ;
         bf:agent <http://localhost:8080/bibframe/individual/agent3> .
 
 <http://localhost:8080/bibframe/individual/agent1> a bf:Agent ;
@@ -65,7 +65,7 @@
 <http://localhost:8080/bibframe/individual/agent2> a bf:Agent ;
         rdfs:label "Kenneth Van Sickle" .
 
-<http://localhost:8080/bibframe/individual/agent1> a bf:Agent ;
+<http://localhost:8080/bibframe/individual/agent3> a bf:Agent ;
         rdfs:label "John Craddock" .		
 		
 <http://localhost:8080/bibframe/individual/collection1> a bf:Collection ;
