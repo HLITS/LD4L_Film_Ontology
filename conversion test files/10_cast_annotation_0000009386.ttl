@@ -79,8 +79,7 @@ hl:nf06be992c69ec0c1  a  bf:Collection ;
         rdfs:label  "Somerville High School" .
         
 hl:annotation1 a oa:Annotation	;
-
-hl:annotation1 oa:hasTarget hl:n74ca23f993d6470c	;
+        oa:hasTarget hl:n74ca23f993d6470c	;
         oa:motivatedBy	bib:listingCredits	;
         oa:hasBody	hl:body1	;
         dcterms:creator	<https://library.harvard.edu/hfa/ld4l> .
