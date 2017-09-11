@@ -185,3 +185,14 @@ mi:Kodacolor a mi:ColorCharacteristic ;
 mi:Reversal a mi:ColorCharacteristic ;
 	rdfs:label "color produced by reversal film" ;
 	skos:broader mi:Color  .
+
+# Properties
+
+mi:intertitleLanguage rdfs:subPropertyOf dcterms:language ;
+    rdfs:label "intertitle language" .
+
+mi:spokenLanguage rdfs:subPropertyOf dcterms:language ;
+    rdfs:label "spoken language" .
+
+mi:subtitleLanguage rdfs:subPropertyOf dcterms:language ;
+    rdfs:label "subtitle language" .
