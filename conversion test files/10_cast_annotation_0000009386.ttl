@@ -43,7 +43,7 @@ hl:n74ca23f993d6470c  a  bf:MovingImage ;
         bf:identifiedBy  hl:n8541793003842699 ;
         bf:title         hl:n61a2eebb95fb485a ;
         schema:keywords  "Woman filmmaker"@en , "Other"@en ;
-        bib:isTargetOf	 hl:n1	. 
+        bib:isTargetOf	 hl:annotation1	. 
 
 hl:n92a56bf2bd40b99a  a  bib:FilmDirectorActivity ;
         rdfs:label    "Film Director" ;
