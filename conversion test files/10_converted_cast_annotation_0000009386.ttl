@@ -1,0 +1,87 @@
+@prefix schema: <http://schema.org/> .
+@prefix hl:    <http://localhost:8080/bibframe/individual/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix isni:  <http://isni.org/isni/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix bibdt: <http://bibliotek-o.org/datatypes/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+hl:nbc4921b70b3aa4a7  a  bf:Instance ;
+        bf:isPartOf  hl:n46b38787643ff5b9 ;
+        bf:title     hl:n5d251c8a58b5ef22 .
+
+hl:ncbf87a50a3aace13  a  metal:HFANumber ;
+        rdf:value  "0000009386" .
+
+hl:n1f7fb35964a7a5bd  a  bf:Title ;
+        rdfs:label  "The Fur coat club" .
+
+hl:n5d251c8a58b5ef22  a  bf:Title ;
+        rdfs:label  "The Fur coat club" .
+
+hl:ndde00f75a81d6ba1  a  bf:MovingImage ;
+        bib:hasActivity  hl:n38dfd2ec7707802c ,
+                         hl:nbfa26e275472ccc6 , 
+                         hl:n13d3f82d1f8eadd , 
+                         hl:n5c09ec6a10eabcb ;
+        bf:genreForm     <http://id.loc.gov/authorities/genreForms/gf2011026570> ,
+                         <http://vocab.getty.edu/aat/300263846> , 
+                         <http://id.worldcat.org/fast/1710364> , 
+                         <http://id.loc.gov/authorities/genreForms/gf2011026250> , 
+                         <http://id.worldcat.org/fast/1710264> ;
+        bf:hasInstance   hl:nbc4921b70b3aa4a7 ;
+        bf:identifiedBy  hl:ncbf87a50a3aace13 ;
+        bf:title         hl:n1f7fb35964a7a5bd ;
+        schema:keywords  "Other"@en , "Woman filmmaker"@en .
+        bib:isTargetOf   hl:nf3a68318e72a9b4a ;
+
+hl:n38dfd2ec7707802c  a  bib:FilmDirectorActivity ;
+        rdfs:label    "Film Director" ;
+        bib:hasAgent  hl:nd7a3b5b87512815f .
+
+hl:n13d3f82d1f8eadd  a  bib:ScreenwriterActivity ;
+        rdfs:label    "Screenwriter" ;
+        bib:hasAgent  hl:n690ff2a8931fff38 .
+
+hl:n5c09ec6a10eabcb  a  bib:CinematographerActivity ;
+        rdfs:label    "Cinematographer" ;
+        bib:hasAgent  hl:na6a1c2fc7da44e00 .
+
+hl:nbfa26e275472ccc6  a  bib:FilmEditorActivity ;
+        rdfs:label    "Film Editor" ;
+        bib:hasAgent  hl:nd8e325a88fd56c35 .
+
+hl:nd8e325a88fd56c35  a  foaf:Agent ;
+        rdfs:label  "John Craddock" .
+
+hl:n690ff2a8931fff38  a         foaf:Agent ;
+        rdfs:label              "Joan Micklin Silver" ;
+        isni:hasPublicIdentity  isni:000000007825153X .
+
+hl:nd7a3b5b87512815f  a         foaf:Agent ;
+        rdfs:label              "Joan Micklin Silver" ;
+        isni:hasPublicIdentity  isni:000000007825153X .
+
+hl:na6a1c2fc7da44e00  a  foaf:Agent ;
+        rdfs:label  "Kenneth Van Sickle" .
+
+hl:n46b38787643ff5b9  a  bf:Collection ;
+        rdfs:label  "Somerville High School" .
+
+hl:nf3a68318e72a9b4a  a  oa:Annotation ;
+        oa:motivatedBy   bf:listingCredits .
+        oa:hasBody       hl:nb4194f52cd401a4f ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+
+hl:nb4194f52cd401a4f  a  oa:TextualBody ;
+        rdf:value  "Emily Chase, Claudia Silver" .
