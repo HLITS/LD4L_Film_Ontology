@@ -1,0 +1,92 @@
+@prefix schema: <http://schema.org/> .
+@prefix hl:    <http://localhost:8080/bibframe/individual/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix isni:  <http://isni.org/isni/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix mi:    <http://localhost/movingimage/> .
+@prefix bibdt: <http://bibliotek-o.org/datatypes/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+hl:na44eebe746160265  a  bf:Instance ;
+        bf:isPartOf  hl:na96a6d103ee9fad4 ;
+        bf:title     hl:n85d05f1f51036a1e .
+
+hl:na96a6d103ee9fad4  a  bf:Collection ;
+        rdfs:label  "Howard E. Burr Collection" .
+
+hl:n85d05f1f51036a1e  a  bf:Title ;
+        rdfs:label  "Taxi driver - condensed feature" .
+
+hl:nf4e927e1f79c9489  a  metal:HFANumber ;
+        rdf:value  "0000034836" .
+
+hl:n2ccba90bd55d1cee  a  bf:MovingImage ;
+        bib:hasActivity  hl:n6744b682ec8b4171 ,
+                         hl:n40c01d5b8f12e9b3 , 
+                         hl:ne303e6c3676334d7 , 
+                         hl:nff084ce468ae96e2 , 
+                         hl:n80104a9c1f9fdeaa ;
+        bib:isTargetOf   hl:n6bb0e5102a2342b5 ;
+        bf:genreForm     <http://id.worldcat.org/fast/1710306> ,
+                         <http://id.worldcat.org/fast/1710264> , 
+                         <http://id.worldcat.org/fast/1710364> , 
+                         <http://vocab.getty.edu/aat/300263846> , 
+                         <http://id.loc.gov/authorities/genreForms/gf2011026250> , 
+                         <http://id.loc.gov/authorities/genreForms/gf2011026570> ;
+        bf:hasInstance   hl:na44eebe746160265 ;
+        bf:identifiedBy  hl:nf4e927e1f79c9489 ;
+        bf:title         hl:ndac1225c2e667e8d .
+
+hl:ndac1225c2e667e8d  a  bf:Title ;
+        rdfs:label  "Taxi driver - condensed feature" .
+
+hl:n40c01d5b8f12e9b3  a  bib:FilmDirectorActivity ;
+        rdfs:label    "Film Director" ;
+        bib:hasAgent  hl:n8d3196779c03d36c .
+
+hl:n8d3196779c03d36c  a  foaf:Agent ;
+        rdfs:label  "Martin Scorsese" .
+
+hl:ne303e6c3676334d7  a  bib:FilmEditorActivity ;
+        rdfs:label    "Film Editor" ;
+        bib:hasAgent  hl:nfe7b2464f5601dad .
+
+hl:nfe7b2464f5601dad  a  foaf:Agent ;
+        rdfs:label  "[uncredited]" .
+
+hl:nff084ce468ae96e2  a  bib:CinematographerActivity ;
+        rdfs:label    "Cinematographer" ;
+        bib:hasAgent  hl:n3b4f2e454bb014a6 .
+
+hl:n3b4f2e454bb014a6  a  foaf:Agent ;
+        rdfs:label  "Michael Chapman" .
+
+hl:n80104a9c1f9fdeaa  a  mi:ProductionCompanyActivity ;
+        rdfs:label    "Production" ;
+        bib:hasAgent  hl:nde0560398fc8e61d .
+
+hl:nde0560398fc8e61d  a  foaf:Agent ;
+        rdfs:label  "Columbia Pictures" .
+
+hl:n6744b682ec8b4171  a  bib:ProviderActivity ;
+        rdfs:label      "Release" ;
+        bib:atLocation  <United States> ;
+        dcterms:date    "1976%"^^<http://id.loc.gov/datatypes/edtf/EDTF> .
+
+hl:n6bb0e5102a2342b5  a  oa:Annotation ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+        oa:hasBody       hl:nc462b30d7856d6f2 ;
+        oa:motivatedBy   bf:listingCredits .
+
+hl:nc462b30d7856d6f2  a  oa:TextualBody ;
+        rdf:value  "Robert de Niro, Jodi Foster, Harvey Keitel, [uncredited narrator]" .
