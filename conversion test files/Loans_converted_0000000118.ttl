@@ -1,0 +1,170 @@
+@prefix schema: <http://schema.org/> .
+@prefix hl:    <http://localhost:8080/bibframe/individual/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix isni:  <http://isni.org/isni/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix mi:    <http://localhost/movingimage/> .
+@prefix bibdt: <http://bibliotek-o.org/datatypes/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+hl:n1144dbab298b0117  a      bf:Instance ;
+        bf:hasItem           hl:n37f79e40fd890e90 ;
+        bf:isPartOf          hl:nfd50c7df3ecfe3bf ;
+        bf:title             hl:n148fe819ebefcc12 ;
+        mi:subtitleLanguage  <English> ;
+        dcterms:language     <French / English> .
+
+hl:n6b7e9dd304de375c  a  bf:MovingImage ;
+        bib:hasActivity  hl:nf0ca343306ce29e0 , hl:nb96c86851b130457 , hl:nba46aac3014c4bf7 , hl:n44be854fc74d0442 , hl:na020af027bd8037 , hl:n63765dee72e6d878 , hl:n4bc18e16da43d71a , hl:n7cc9a2f564c45b4c ;
+        bib:isTargetOf   hl:n915487840e98b9ef , hl:n380c80c5d042b4f8 ;
+        bf:genreForm     <http://id.worldcat.org/fast/1710384> , <http://id.worldcat.org/fast/1710264> , <http://vocab.getty.edu/aat/300263847> , <http://id.loc.gov/authorities/genreForms/gf2011026250> , <http://id.loc.gov/authorities/genreForms/gf2011026247> , <http://id.worldcat.org/fast/1710306> ;
+        bf:hasInstance   hl:n1144dbab298b0117 ;
+        bf:identifiedBy  hl:n9fa9dc93012441af ;
+        bf:title         hl:n2b682f2c28c08370 .
+
+hl:n37f79e40fd890e90  a  bf:Item ;
+        bib:hasActivity  hl:n5da6f36b13641867 , hl:n85550248758f5932 ;
+        <http://localhost/fixme/hasCustodialHistory>
+                hl:nd6f6872d0d3d29ab .
+
+hl:nd6f6872d0d3d29ab  a  <http://localhost/fixme/CustodialHistory> ;
+        rdfs:label       "Custodial History" ;
+        dcterms:hasPart  hl:n18481fdae7cb39a5 .
+
+
+hl:n18481fdae7cb39a5  a   mi:ItemEvent ;
+        dcterms:isPartOf  hl:n649082ba310fc20d , hl:n5b554bbcba9385df .
+
+hl:n649082ba310fc20d  a  mi:LoanEvent ;
+        bib:atLocation   <NH, USA> ;
+        bib:hasActivity  hl:n4d36ecab16b96b52 , hl:n95a1c18b221732a ;
+        dcterms:date     "2008-07-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+hl:n4d36ecab16b96b52  a  bib:BorrowerActivity ;
+        rdfs:label    "Borrower" ;
+        bib:hasAgent  hl:na517c652d8bb35f8 .
+
+hl:na517c652d8bb35f8  a  foaf:Agent ;
+        rdfs:label  "Hopkins Center for Film" .
+
+hl:n95a1c18b221732a  a  bib:LenderActivity ;
+        rdfs:label    "Lender" ;
+        bib:hasAgent  <https://library.harvard.edu/hfa/ld4l> .
+
+
+hl:n5b554bbcba9385df  a  mi:LoanEvent ;
+        bib:atLocation   <NY, USA> ;
+        bib:hasActivity  hl:n70ce929e2cf8e80a , hl:n2178f44b5b97c3f1 .
+
+hl:n70ce929e2cf8e80a  a  bib:BorrowerActivity ;
+        rdfs:label    "Borrower" ;
+        bib:hasAgent  hl:n4a6578f84ca39aaa .
+
+hl:n4a6578f84ca39aaa  a  foaf:Agent ;
+        rdfs:label  "MOMA" .
+
+hl:n2178f44b5b97c3f1  a  bib:LenderActivity ;
+        rdfs:label    "Lender" ;
+        bib:hasAgent  <https://library.harvard.edu/hfa/ld4l> .
+
+
+hl:n5da6f36b13641867  a  mi:ExhibitionEvent ;
+        rdfs:label      "Screening" ;
+        bib:atLocation  <Hanover, NH, USA> .
+
+hl:n85550248758f5932  a  mi:ExhibitionEvent ;
+        rdfs:label      "Screening" ;
+        bib:atLocation  <NYC, NY, USA> .
+
+
+
+hl:n148fe819ebefcc12  a  bf:Title ;
+        rdfs:label  "Coup de torchon" .
+
+hl:n2b682f2c28c08370  a  bf:Title ;
+        rdfs:label  "Coup de torchon" .
+
+hl:n915487840e98b9ef  a  oa:Annotation ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+        oa:hasBody       hl:n587865658debcdb7 ;
+        oa:motivatedBy   bf:listingCredits .
+
+hl:nba46aac3014c4bf7  a  bib:FilmDirectorActivity ;
+        rdfs:label    "Film Director" ;
+        bib:hasAgent  hl:nc2e629fffcff33a2 .
+
+hl:n587865658debcdb7  a  oa:TextualBody ;
+        rdf:value  "Philippe Noiret, Isabelle Huppert, Stephane Audran, Irene Skobline, Eddy Mitchell, Guy Marchand" .
+
+hl:nc2e629fffcff33a2  a  foaf:Agent ;
+        rdfs:label  "Bertrand Tavernier" .
+
+hl:na020af027bd8037  a  mi:ProductionCompanyActivity ;
+        rdfs:label    "Production" ;
+        bib:hasAgent  hl:nb561ec96c36febb9 .
+
+hl:nb96c86851b130457  a  bib:ProviderActivity ;
+        rdfs:label      "Release" ;
+        bib:atLocation  <France> .
+
+hl:n380c80c5d042b4f8  a  oa:Annotation ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+        oa:hasBody       hl:n28870e88821482b0 ;
+        oa:motivatedBy   bib:summarizing .
+
+hl:n28870e88821482b0  a  oa:TextualBody ;
+        rdf:value  "1938\nCrime drama set in a small African township, in which a disgruntled police inspector frames a colleague for his shooting of two pimps, but after finds he can't seem to stop his killing spree." .
+
+hl:n9fa9dc93012441af  a  metal:HFANumber ;
+        rdf:value  "0000000118" .
+
+hl:nf0ca343306ce29e0  a  bib:ScreenwriterActivity ;
+        rdfs:label    "Screenwriter" ;
+        bib:hasAgent  hl:nf2cc4071647fadcf .
+
+hl:n63765dee72e6d878  a  mi:ProductionCompanyActivity ;
+        rdfs:label    "Production" ;
+        bib:hasAgent  hl:n5f1435236fe271e2 .
+
+hl:n7cc9a2f564c45b4c  a  mi:ProductionCompanyActivity ;
+        rdfs:label    "Production" ;
+        bib:hasAgent  hl:n470f1f6f1849d3d0 .
+
+hl:nfd50c7df3ecfe3bf  a  bf:Collection ;
+        rdfs:label  "The New Collection" .
+
+hl:n4bc18e16da43d71a  a  bib:ScreenwriterActivity ;
+        rdfs:label    "Screenwriter" ;
+        bib:hasAgent  hl:n34719f904d956480 .
+
+hl:n470f1f6f1849d3d0  a  foaf:Agent ;
+        rdfs:label  "De La Tour" .
+
+hl:n44be854fc74d0442  a  bib:CinematographerActivity ;
+        rdfs:label    "Cinematographer" ;
+        bib:hasAgent  hl:n4de2d1dd97daa8f1 .
+
+hl:n5f1435236fe271e2  a  foaf:Agent ;
+        rdfs:label  "Les Films 2A" .
+
+hl:n4de2d1dd97daa8f1  a  foaf:Agent ;
+        rdfs:label  "Pierre William Glenn" .
+
+hl:n34719f904d956480  a  foaf:Agent ;
+        rdfs:label  "Jean Aurenche" .
+
+hl:nb561ec96c36febb9  a  foaf:Agent ;
+        rdfs:label  "Little Bear" .
+
+hl:nf2cc4071647fadcf  a  foaf:Agent ;
+        rdfs:label  "Bertrand Tavernier" .
