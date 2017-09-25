@@ -1,0 +1,141 @@
+@prefix schema: <http://schema.org/> .
+@prefix hl:    <http://localhost:8080/bibframe/individual/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix isni:  <http://isni.org/isni/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix mi:    <http://localhost/movingimage/> .
+@prefix bibdt: <http://bibliotek-o.org/datatypes/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+hl:n611338b179241af  a   bf:MovingImage ;
+        bib:hasActivity  hl:n32a96153e80f912b , hl:n1562ea9d94de366e , hl:ncac528cf0e47437a , hl:nb70631554e6e6370 , hl:ne0d116a9819f3d63 , hl:n3738d7b54325776c , hl:n7b2650fa311e39aa , hl:ne53a449da8bc631f ;
+        bib:isTargetOf   hl:n5aae64f5135f90d2 ;
+        bf:genreForm     <http://id.worldcat.org/fast/1710384> , <http://vocab.getty.edu/aat/300263847> , <http://id.loc.gov/authorities/genreForms/gf2011026247> , <http://id.worldcat.org/fast/1710264> , <http://id.loc.gov/authorities/genreForms/gf2011026250> ;
+        bf:hasInstance   hl:n936f4c8054592842 ;
+        bf:identifiedBy  hl:n72131898ca637bd3 ;
+        bf:title         hl:n259c3e75d5e38bea ;
+        bf:duration      "167"@en ;
+        schema:duration  "P167M" .
+
+hl:nd56cd72937a75cb9  a  bf:Item ;
+        bib:hasActivity  hl:n99615059c6ac55a2 ;
+        <http://localhost/fixme/hasCustodialHistory>
+                hl:n6989125b801fe187 ;
+        bf:duration      "167"@en ;
+        schema:duration  "P167M" .
+
+hl:n72131898ca637bd3  a  metal:HFANumber ;
+        rdf:value  "0000000003" .
+
+hl:n6989125b801fe187  a  <http://localhost/fixme/CustodialHistory> ;
+        rdfs:label       "Custodial History" ;
+        dcterms:hasPart  hl:ne31c9b676071c97b .
+
+hl:n95ff5f2967a5270e  a  foaf:Agent ;
+        rdfs:label  "Sidney Lumet" .
+
+hl:n2c2f0510cda6704a  a  foaf:Agent ;
+        rdfs:label  "Film Society of Lincoln Center" .
+
+hl:n54edbcd9e3b4caf4  a  bib:LenderActivity ;
+        rdfs:label    "Lender" ;
+        bib:hasAgent  <https://library.harvard.edu/hfa/ld4l> .
+
+hl:n259c3e75d5e38bea  a  bf:Title ;
+        rdfs:label  "Prince of the city" .
+
+hl:n159d7e92ffe2b21a  a  oa:TextualBody ;
+        rdf:value  "Treat Williams, Jerry Orbach, Don Billett, Richard Foronjy, Carmine Caridi, Kenny Marino" .
+
+hl:nd2c22a8037dc0722  a  foaf:Agent ;
+        rdfs:label  "Andzrej Bartkowiak" .
+
+hl:n32a96153e80f912b  a  bib:ScreenwriterActivity ;
+        rdfs:label    "Screenwriter" ;
+        bib:hasAgent  hl:n82db984a16a9800e .
+
+hl:n62e930b8bb98a754  a  bib:BorrowerActivity ;
+        rdfs:label    "Borrower" ;
+        bib:hasAgent  hl:n2c2f0510cda6704a .
+
+hl:nf286be66396cf7c8  a  bf:Title ;
+        rdfs:label  "Prince of the city" .
+
+hl:n7b2650fa311e39aa  a  bib:ProducerActivity ;
+        rdfs:label    "Producer" ;
+        bib:hasAgent  hl:nb7ea9ec52b7df6f .
+
+hl:n5aae64f5135f90d2  a  oa:Annotation ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+        oa:hasBody       hl:n159d7e92ffe2b21a ;
+        oa:motivatedBy   bf:listingCredits .
+
+hl:n82db984a16a9800e  a  foaf:Agent ;
+        rdfs:label  "Jay Presson Allen" .
+
+hl:ncac528cf0e47437a  a  bib:CinematographerActivity ;
+        rdfs:label    "Cinematographer" ;
+        bib:hasAgent  hl:nd2c22a8037dc0722 .
+
+hl:n99615059c6ac55a2  a  mi:ExhibitionEvent ;
+        rdfs:label      "Screening" ;
+        bib:atLocation  <New York, NY, USA> .
+
+hl:n1562ea9d94de366e  a  bib:FilmEditorActivity ;
+        rdfs:label    "Film Editor" ;
+        bib:hasAgent  hl:nb04490177dea63e2 .
+
+hl:ne4dc2f35c8c3855f  a  foaf:Agent ;
+        rdfs:label  "Sidney Lumet" .
+
+hl:ne0d116a9819f3d63  a  mi:ProductionCompanyActivity ;
+        rdfs:label    "Production" ;
+        bib:hasAgent  hl:n778e7d089e51ada4 .
+
+hl:n3738d7b54325776c  a  bib:ScreenwriterActivity ;
+        rdfs:label    "Screenwriter" ;
+        bib:hasAgent  hl:n95ff5f2967a5270e .
+
+hl:nb70631554e6e6370  a  bib:FilmDirectorActivity ;
+        rdfs:label    "Film Director" ;
+        bib:hasAgent  hl:ne4dc2f35c8c3855f .
+
+hl:n936f4c8054592842  a   bf:Instance ;
+        bf:hasItem        hl:nd56cd72937a75cb9 ;
+        bf:isPartOf       hl:ncbd076f3a35bd7a6 ;
+        bf:title          hl:nf286be66396cf7c8 ;
+        dcterms:language  <English> .
+
+hl:ne53a449da8bc631f  a  bib:ProviderActivity ;
+        rdfs:label      "Release" ;
+        bib:atLocation  <United States> .
+
+hl:ne31c9b676071c97b  a   mi:ItemEvent ;
+        dcterms:isPartOf  hl:nb6aeb3e638329e83 .
+
+hl:n778e7d089e51ada4  a  foaf:Agent ;
+        rdfs:label  "Orion" .
+
+hl:nb7ea9ec52b7df6f  a  foaf:Agent ;
+        rdfs:label  "Burtt Harris" .
+
+hl:nb6aeb3e638329e83  a  mi:LoanEvent ;
+        bib:atLocation   <NY, USA> ;
+        bib:hasActivity  hl:n62e930b8bb98a754 , hl:n54edbcd9e3b4caf4 ;
+        dcterms:date     "2011-07-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+hl:ncbd076f3a35bd7a6  a  bf:Collection ;
+        rdfs:label  "The New Collection" .
+
+hl:nb04490177dea63e2  a  foaf:Agent ;
+        rdfs:label  "John J. Fitzstephens" .
