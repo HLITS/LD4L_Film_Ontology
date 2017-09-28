@@ -1,0 +1,68 @@
+@prefix schema: <http://schema.org/> .
+@prefix hl:    <http://localhost:8080/bibframe/individual/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix isni:  <http://isni.org/isni/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix mi:    <http://localhost/movingimage/> .
+@prefix bibdt: <http://bibliotek-o.org/datatypes/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+hl:n9e11f17530b22451  a       bf:Item ;
+        rdfs:label            "Beginning Responsibility: Broken Book Shop" ;
+        bf:title              hl:ne37225bbfc94e435 ;
+        mi:hasCharacteristic  mi:AcceptableCondition , mi:Scratches .
+
+hl:n32c191452312622b  a  bf:MovingImage ;
+        rdfs:label       "Beginning Responsibility: Broken Book Shop" ;
+        bib:hasActivity  hl:n2952360fadd87e8e ;
+        bib:isTargetOf   hl:ne07ce4b29a11b19c ;
+        bf:colorContent  mi:Color ;
+        bf:genreForm     <http://vocab.getty.edu/aat/300263846> , <http://id.worldcat.org/fast/1710364> , <http://id.loc.gov/authorities/genreForms/gf2011026570> , <http://id.loc.gov/authorities/genreForms/gf2014026114> , <http://id.worldcat.org/fast/1726235> ;
+        bf:hasInstance   hl:n6889191614d7a1d3 ;
+        bf:identifiedBy  hl:n44d9552a0f3610b7 ;
+        bf:title         hl:n88d32fae630fdcf6 .
+
+hl:n6889191614d7a1d3  a   bf:Instance ;
+        rdfs:label        "Beginning Responsibility: Broken Book Shop" ;
+        bf:hasItem        hl:n9e11f17530b22451 ;
+        bf:isPartOf       hl:ned11542e0b6f531b ;
+        bf:title          hl:nb4f4f3c4504b5e41 ;
+        dcterms:language  <English> .
+
+hl:n2952360fadd87e8e  a  bib:ProviderActivity ;
+        rdfs:label      "Release" ;
+        bib:atLocation  <United States> ;
+        dcterms:date    "1979"^^<http://id.loc.gov/datatypes/edtf/EDTF> .
+
+hl:ne37225bbfc94e435  a  bf:Title ;
+        rdfs:label  "Beginning Responsibility: Broken Book Shop" .
+
+hl:ne07ce4b29a11b19c  a  oa:Annotation ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+        oa:hasBody       hl:n4fcda59e2924035b ;
+        oa:motivatedBy   bib:summarizing .
+
+hl:n44d9552a0f3610b7  a  metal:HFANumber ;
+        rdf:value  "0000032530" .
+
+hl:ned11542e0b6f531b  a  bf:Collection ;
+        rdfs:label  "Jason Camuti Collection" .
+
+hl:n88d32fae630fdcf6  a  bf:Title ;
+        rdfs:label  "Beginning Responsibility: Broken Book Shop" .
+
+hl:n4fcda59e2924035b  a  oa:TextualBody ;
+        rdf:value  "Educational Film\n“Books and their care”\n\nBEGINNING RESPONSIBILITY: THE BROKEN BOOK SHOP (Coronet Films 1979) Summary (from film can): Reuben is a very special bookbinder, for he can talk to books and they talk to him. We listen in as books in his repair shop tell Reuben their sad tales of misuse and abuse. They reveal the proper methods for taking care of books. " .
+
+hl:nb4f4f3c4504b5e41  a  bf:Title ;
+        rdfs:label  "Beginning Responsibility: Broken Book Shop" .
