@@ -1,0 +1,101 @@
+@prefix schema: <http://schema.org/> .
+@prefix hl:    <http://localhost:8080/bibframe/individual/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix isni:  <http://isni.org/isni/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix mi:    <http://localhost/movingimage/> .
+@prefix bibdt: <http://bibliotek-o.org/datatypes/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+hl:n51a780781a12abcd  a  foaf:Agent ;
+        rdfs:label  "McMillan Reba Stewart Fellowship" .
+
+hl:nac661b44c7f91f6e  a   mi:ItemEvent ;
+        dcterms:isPartOf  hl:ndf4cdf12dcbbb6fc .
+
+hl:nb81fca68d915fe35  a  foaf:Agent ;
+        rdfs:label  "Med Hondo" .
+
+hl:n957dd8244bf0ed53  a  bf:Title ;
+        rdfs:label  "West Indies" .
+
+hl:n778c108870327e75  a  <http://localhost/fixme/CustodialHistory> ;
+        rdfs:label       "Custodial History" ;
+        dcterms:hasPart  hl:nac661b44c7f91f6e .
+
+hl:n658d0da07e67d34f  a  metal:HFANumber ;
+        rdf:value  "0000005233" .
+
+hl:n6f46581c25401d08  a       bf:Item ;
+        rdfs:label            "West Indies" ;
+        bf:duration           "115"@en ;
+        bf:title              hl:n957dd8244bf0ed53 ;
+        <http://localhost/fixme/hasCustodialHistory>
+                hl:n778c108870327e75 ;
+        mi:hasCharacteristic  mi:ExcellentCondition ;
+        schema:duration       "P115M" .
+
+hl:n223e241bffa8cf5c  a  oa:TextualBody ;
+        rdf:value  "\"Med Hondo’s West Indies is a revolutionary musical in both senses of the word. This witty, scathing production offers an angry view of West Indian history, using imaginative staging and a fluid visual style. The film’s single set is an enormous slave ship [built in an unused Citroen factory in Paris]. . . . Mobile camerawork and frequent narrative shifts take the actors through various vignettes about French colonialists invading the Indies, Carribean natives lured to Paris, the process by which the islands were first settled and a lot more. The material has the potential for overbearing irony . . . [but] Mr. Hondo has a light touch. . . . With cast members rotating their way through many different roles (the same actors may play slaves, then worried island villagers, then displaced West Indians) . . . Mr. Hondo leads the film through a long series of well-connected tableaux, culminating in an almost joyous call to arms.\"—Janet Maslin, New York Times" .
+
+hl:ne14fbeb25e70afa7  a  bib:FilmDirectorActivity ;
+        rdfs:label    "Film Director" ;
+        bib:hasAgent  hl:nb81fca68d915fe35 .
+
+hl:n4d2bd9418189cee5  a  bf:Title ;
+        rdfs:label  "West Indies ou les negres marrons de la liberte" .
+
+hl:nc117e18de637bf81  a  bib:ProviderActivity ;
+        rdfs:label      "Release" ;
+        bib:atLocation  <Mauritania> , <Algeria> ;
+        dcterms:date    "1979"^^<http://id.loc.gov/datatypes/edtf/EDTF> .
+
+hl:n9fb9fc98da16eec5  a  bf:Title ;
+        rdfs:label  "West Indies" .
+
+hl:n7fc8c63dbd9aa2d  a  bf:Title ;
+        rdfs:label  "West Indies" .
+
+hl:ne4b1cd9ed3f60887  a  bf:MovingImage ;
+        rdfs:label       "West Indies" ;
+        bib:hasActivity  hl:ne14fbeb25e70afa7 , hl:nc117e18de637bf81 ;
+        bib:isTargetOf   hl:n12b4e4a3ad591994 ;
+        bf:colorContent  mi:Color ;
+        bf:duration      "115"@en ;
+        bf:genreForm     <http://id.loc.gov/authorities/genreForms/gf2011026250> , <http://vocab.getty.edu/aat/300263847> , <http://id.loc.gov/authorities/genreForms/gf2011026247> , <http://id.worldcat.org/fast/1710384> , <http://id.worldcat.org/fast/1710306> , <http://id.worldcat.org/fast/1710264> ;
+        bf:hasInstance   hl:na0254d536eb4eb32 ;
+        bf:identifiedBy  hl:n658d0da07e67d34f ;
+        bf:title         hl:n4d2bd9418189cee5 , hl:n9fb9fc98da16eec5 ;
+        schema:duration  "P115M" .
+
+hl:na0254d536eb4eb32  a      bf:Instance ;
+        rdfs:label           "West Indies" ;
+        bf:hasItem           hl:n6f46581c25401d08 ;
+        bf:title             hl:n7fc8c63dbd9aa2d , hl:n35cd47bc75fbaf8f ;
+        mi:subtitleLanguage  <English> ;
+        dcterms:language     <French> .
+
+hl:nb84ab2e0941077e9  a  bib:DonorActivity ;
+        rdfs:label    "Donor" ;
+        bib:hasAgent  hl:n51a780781a12abcd .
+
+hl:n35cd47bc75fbaf8f  a  bf:Title ;
+        rdfs:label  "West Indies ou les negres marrons de la liberte" .
+
+hl:ndf4cdf12dcbbb6fc  a  mi:GiftEvent ;
+        bib:hasActivity  hl:nb84ab2e0941077e9 .
+
+hl:n12b4e4a3ad591994  a  oa:Annotation ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+        oa:hasBody       hl:n223e241bffa8cf5c ;
+        oa:motivatedBy   bib:summarizing .
