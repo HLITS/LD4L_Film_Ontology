@@ -1,0 +1,193 @@
+@prefix schema: <http://schema.org/> .
+@prefix hl:    <http://localhost:8080/bibframe/individual/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix isni:  <http://isni.org/isni/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix mi:    <http://localhost/movingimage/> .
+@prefix bibdt: <http://bibliotek-o.org/datatypes/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+hl:n2a03ff581878a471  a       bf:MovingImage ;
+        rdfs:label            "Coup de torchon" ;
+        bib:hasActivity       hl:nfc1b1027be19c93a , hl:n1da270d6048939d5 , hl:na9bc357298cc0434 , hl:n46e9aec2fbcb0227 , hl:n63c60e0e640ae378 , hl:n78b3facf64fee75f , hl:nb28bbc5bd6263b9a , hl:nb46cd975a42fe53d , hl:nb4980d8b90b1a9ee ;
+        bib:isTargetOf        hl:n4a593ff74301b318 , hl:nf55c140b0ffe3c6e ;
+        bf:duration           "128"@en ;
+        bf:genreForm          <http://vocab.getty.edu/aat/300263847> , <http://id.loc.gov/authorities/genreForms/gf2011026247> , <http://id.loc.gov/authorities/genreForms/gf2011026250> , <http://id.worldcat.org/fast/1710384> , <http://id.worldcat.org/fast/1710306> , <http://id.worldcat.org/fast/1710264> ;
+        bf:hasInstance        hl:ndc96ca03bd8d3055 ;
+        bf:identifiedBy       hl:n7d1dc549ce1fc473 ;
+        bf:title              hl:nfd8e3b872bdafcd0 , hl:n8d06b212c7bde47c ;
+        mi:hasCharacteristic  mi:Widescreen166 ;
+        schema:duration       "P128M" .
+
+hl:n68a0202ad889c1d2  a  bf:Title ;
+        rdfs:label  "Coup de torchon" .
+
+hl:nbefd525fa5213bf1  a  foaf:Agent ;
+        rdfs:label  "Hopkins Center for Film" .
+
+hl:n41639d3747fad1cf  a  foaf:Agent ;
+        rdfs:label  "Jean Aurenche" .
+
+hl:nb29c97b11b70ba69  a  <http://localhost/fixme/CustodialHistory> ;
+        rdfs:label       "Custodial History" ;
+        dcterms:hasPart  hl:n6d58ee7db0783f76 .
+
+hl:n5efd0abbaf6297bb  a  oa:TextualBody ;
+        rdf:value  "Philippe Noiret, Isabelle Huppert, Stephane Audran, Irene Skobline, Eddy Mitchell, Guy Marchand" .
+
+hl:n7d1dc549ce1fc473  a  metal:HFANumber ;
+        rdf:value  "0000000118" .
+
+hl:nfd8e3b872bdafcd0  a  bf:Title ;
+        rdfs:label  "Coup de torchon" .
+
+hl:n6a2e0383b814bdec  a  bib:BorrowerActivity ;
+        rdfs:label    "Borrower" ;
+        bib:hasAgent  hl:nbefd525fa5213bf1 .
+
+hl:n9ca1ad0cf180751c  a  bib:LenderActivity ;
+        rdfs:label    "Lender" ;
+        bib:hasAgent  <https://library.harvard.edu/hfa/ld4l> .
+
+hl:na9bc357298cc0434  a  bib:ScreenwriterActivity ;
+        rdfs:label    "Screenwriter" ;
+        bib:hasAgent  hl:n41639d3747fad1cf .
+
+hl:nf6fbcdf46f10ce7c  a  foaf:Agent ;
+        rdfs:label  "MOMA" .
+
+hl:ndc96ca03bd8d3055  a      bf:Instance ;
+        rdfs:label           "Coup de torchon" ;
+        bf:hasItem           hl:n82bb8a6b782f237a ;
+        bf:isPartOf          hl:na96529459bd9fafa ;
+        bf:title             hl:n68a0202ad889c1d2 , hl:n49b8540f87e9ac99 , hl:n1990e9cd59606547 ;
+        mi:subtitleLanguage  <English> ;
+        dcterms:language     <French / English> .
+
+hl:n796e4f364a32517  a  mi:ExhibitionEvent ;
+        rdfs:label      "Screening" ;
+        bib:atLocation  <Hanover, NH, USA> .
+
+hl:nb46cd975a42fe53d  a  mi:ProductionCompanyActivity ;
+        rdfs:label    "Production" ;
+        bib:hasAgent  hl:n716422c8c4db0ce3 .
+
+hl:n46e9aec2fbcb0227  a  bib:ProviderActivity ;
+        rdfs:label      "Release" ;
+        bib:atLocation  <France> .
+
+hl:n82bb8a6b782f237a  a  bf:Item ;
+        rdfs:label       "Coup de torchon" ;
+        bib:hasActivity  hl:n796e4f364a32517 , hl:nacf2e867462e91f4 ;
+        bf:duration      "128"@en ;
+        bf:title         hl:ne51a9c03f2fce008 ;
+        <http://localhost/fixme/hasCustodialHistory>
+                hl:nb29c97b11b70ba69 ;
+        schema:duration  "P128M" .
+
+hl:nbe8458ed38282af0  a  foaf:Agent ;
+        rdfs:label  "Bertrand Tavernier" .
+
+hl:n31926613347eed5  a  foaf:Agent ;
+        rdfs:label  "Pierre William Glenn" .
+
+hl:nacf2e867462e91f4  a  mi:ExhibitionEvent ;
+        rdfs:label      "Screening" ;
+        bib:atLocation  <NYC, NY, USA> .
+
+hl:nb28bbc5bd6263b9a  a  mi:ProductionCompanyActivity ;
+        rdfs:label    "Production" ;
+        bib:hasAgent  hl:nd3d8da221867919e .
+
+hl:n78b3facf64fee75f  a  bib:CinematographerActivity ;
+        rdfs:label    "Cinematographer" ;
+        bib:hasAgent  hl:n31926613347eed5 .
+
+hl:n8fbcfee9540acd90  a  mi:LoanEvent ;
+        bib:atLocation   <NH, USA> ;
+        bib:hasActivity  hl:n6a2e0383b814bdec , hl:n9ca1ad0cf180751c ;
+        dcterms:date     "2008-07-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+
+hl:n1da270d6048939d5  a  mi:ProductionCompanyActivity ;
+        rdfs:label    "Production" ;
+        bib:hasAgent  hl:n2f2cf46e03eb2f3e .
+
+hl:n8d06b212c7bde47c  a  bf:Title ;
+        rdfs:label  "Clean slate" .
+
+hl:n2f2cf46e03eb2f3e  a  foaf:Agent ;
+        rdfs:label  "Les Films 2A" .
+
+hl:n1990e9cd59606547  a  bf:Title ;
+        rdfs:label  "Coup de Torchon" .
+
+hl:n4a593ff74301b318  a  oa:Annotation ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+        oa:hasBody       hl:n255dc0cc9e3e4543 ;
+        oa:motivatedBy   bib:summarizing .
+
+hl:nfc1b1027be19c93a  a  bib:MusicianActivity ;
+        rdfs:label    "Musician" ;
+        bib:hasAgent  hl:ne4801d56e0c33e2e .
+
+hl:n63c60e0e640ae378  a  bib:FilmDirectorActivity ;
+        rdfs:label    "Film Director" ;
+        bib:hasAgent  hl:n3b9ee312359e382b .
+
+hl:n4e8d34641f3ae1d8  a  bib:BorrowerActivity ;
+        rdfs:label    "Borrower" ;
+        bib:hasAgent  hl:nf6fbcdf46f10ce7c .
+
+hl:ne4801d56e0c33e2e  a  foaf:Agent ;
+        rdfs:label  "Phillippe Sarde" .
+
+hl:nbff5dc0bc44d58b  a   mi:LoanEvent ;
+        bib:atLocation   <NY, USA> ;
+        bib:hasActivity  hl:n4e8d34641f3ae1d8 , hl:n1407356ae1e799b .
+
+hl:ne51a9c03f2fce008  a  bf:Title ;
+        rdfs:label  "Coup de torchon" .
+
+hl:nd3d8da221867919e  a  foaf:Agent ;
+        rdfs:label  "Little Bear" .
+
+hl:na96529459bd9fafa  a  bf:Collection ;
+        rdfs:label  "The New Collection" .
+
+hl:n1407356ae1e799b  a  bib:LenderActivity ;
+        rdfs:label    "Lender" ;
+        bib:hasAgent  <https://library.harvard.edu/hfa/ld4l> .
+
+hl:n716422c8c4db0ce3  a  foaf:Agent ;
+        rdfs:label  "De La Tour" .
+
+hl:n49b8540f87e9ac99  a  bf:Title ;
+        rdfs:label  "Clean slate" .
+
+hl:n6d58ee7db0783f76  a   mi:ItemEvent ;
+        dcterms:isPartOf  hl:n8fbcfee9540acd90 , hl:nbff5dc0bc44d58b .
+
+hl:nf55c140b0ffe3c6e  a  oa:Annotation ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+        oa:hasBody       hl:n5efd0abbaf6297bb ;
+        oa:motivatedBy   bf:listingCredits .
+
+hl:nb4980d8b90b1a9ee  a  bib:ScreenwriterActivity ;
+        rdfs:label    "Screenwriter" ;
+        bib:hasAgent  hl:nbe8458ed38282af0 .
+
+hl:n255dc0cc9e3e4543  a  oa:TextualBody ;
+        rdf:value  "1938\nCrime drama set in a small African township, in which a disgruntled police inspector frames a colleague for his shooting of two pimps, but after finds he can't seem to stop his killing spree." .
+
+hl:n3b9ee312359e382b  a  foaf:Agent ;
+        rdfs:label  "Bertrand Tavernier" .
