@@ -1,0 +1,115 @@
+@prefix schema: <http://schema.org/> .
+@prefix hl:    <http://localhost:8080/bibframe/individual/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix metal: <http://harvcore.org/ontology/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cart:  <http://ld4l.org/ontology/cartotek-o/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix rdau:  <http://rdaregistry.info/Elements/u/> .
+@prefix isni:  <http://isni.org/isni/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix bib:   <http://bib.ld4l.org/ontology/> .
+@prefix mi:    <http://localhost/movingimage/> .
+@prefix bibdt: <http://bibliotek-o.org/datatypes/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+hl:n7825dd0ca4b6381  a        bf:Instance ;
+        rdfs:label            "Taxi driver - condensed feature" ;
+        bf:hasItem            hl:n17c564bd21655bc4 ;
+        bf:isPartOf           hl:ne95933ce415e8135 ;
+        bf:title              hl:n860ff8a7f6932c9 ;
+        mi:hasCharacteristic  mi:Magnetic ;
+        dcterms:language      <English> .
+
+hl:nb848e6cb89a83e63  a  bf:Title ;
+        rdfs:label  "Taxi driver - condensed feature" .
+
+hl:nffd759dff2dc4475  a  oa:TextualBody ;
+        rdf:value  "This condensed feature is a re-telling of the end of the movie, just the story of Travis, the pimp, and Iris (the teenage prostitute).  A narrator is employed to describe some gaps in the story.  “Travis Bickle has decided to take revenge against the pimp.”  The original sound from the film is retained.  “You lookin’ at me?”  Using only the scenes of sex and violence, the film is reduced to an exploitation version of itself." .
+
+hl:n5ec4993bd336c7e8  a  metal:HFANumber ;
+        rdf:value  "0000034836" .
+
+hl:ne95933ce415e8135  a  bf:Collection ;
+        rdfs:label  "Howard E. Burr Collection" .
+
+hl:n7153950740be20b9  a  oa:TextualBody ;
+        rdf:value  "Robert de Niro, Jodi Foster, Harvey Keitel, [uncredited narrator]" .
+
+hl:n67e543e511c986f2  a  bf:MovingImage ;
+        rdfs:label       "Taxi driver - condensed feature" ;
+        bib:hasActivity  hl:n2111c4247c11563d , hl:n1d46d75f35ba1658 , hl:n6959c8b1ca7db0e5 , hl:n88e423fa40101b57 , hl:n21a830a61d101005 , hl:n4b620a6de5f9cf9d ;
+        bib:isTargetOf   hl:na5a3809e5ca56128 , hl:n7097193ee3fefe5 ;
+        bf:duration      "22"@en ;
+        bf:genreForm     <http://id.worldcat.org/fast/1710264> , <http://id.worldcat.org/fast/1710306> , <http://id.loc.gov/authorities/genreForms/gf2011026250> , <http://vocab.getty.edu/aat/300263846> , <http://id.worldcat.org/fast/1710364> , <http://id.loc.gov/authorities/genreForms/gf2011026570> ;
+        bf:hasInstance   hl:n7825dd0ca4b6381 ;
+        bf:identifiedBy  hl:n5ec4993bd336c7e8 ;
+        bf:title         hl:n562d7af6e66f6a5a ;
+        schema:duration  "P22M" .
+
+hl:n884a91d108373eaf  a  foaf:Agent ;
+        rdfs:label  "Michael Chapman" .
+
+hl:n21a830a61d101005  a  bib:FilmDirectorActivity ;
+        rdfs:label    "Film Director" ;
+        bib:hasAgent  hl:nedaf570ed9836f60 .
+
+hl:n17c564bd21655bc4  a       bf:Item ;
+        rdfs:label            "Taxi driver - condensed feature" ;
+        bf:duration           "22"@en ;
+        bf:title              hl:nb848e6cb89a83e63 ;
+        mi:hasCharacteristic  mi:AcceptableCondition ;
+        schema:duration       "P22M" .
+
+hl:n2111c4247c11563d  a  bib:FilmEditorActivity ;
+        rdfs:label    "Film Editor" ;
+        bib:hasAgent  hl:n1cd5fb3714013255 .
+
+hl:n88e423fa40101b57  a  bib:CinematographerActivity ;
+        rdfs:label    "Cinematographer" ;
+        bib:hasAgent  hl:n884a91d108373eaf .
+
+hl:neb8e69d5de5d65a  a  foaf:Agent ;
+        rdfs:label  "Bernard Herrmann" .
+
+hl:n1cd5fb3714013255  a  foaf:Agent ;
+        rdfs:label  "[uncredited]" .
+
+hl:n6959c8b1ca7db0e5  a  bib:MusicianActivity ;
+        rdfs:label    "Musician" ;
+        bib:hasAgent  hl:neb8e69d5de5d65a .
+
+hl:n1d46d75f35ba1658  a  bib:ProviderActivity ;
+        rdfs:label      "Release" ;
+        bib:atLocation  <United States> ;
+        dcterms:date    "1976%"^^<http://id.loc.gov/datatypes/edtf/EDTF> .
+
+hl:n4b620a6de5f9cf9d  a  mi:ProductionCompanyActivity ;
+        rdfs:label    "Production" ;
+        bib:hasAgent  hl:neecc27dbe30f44f2 .
+
+hl:na5a3809e5ca56128  a  oa:Annotation ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+        oa:hasBody       hl:nffd759dff2dc4475 ;
+        oa:motivatedBy   bib:summarizing .
+
+hl:n860ff8a7f6932c9  a  bf:Title ;
+        rdfs:label  "Taxi driver - condensed feature" .
+
+hl:neecc27dbe30f44f2  a  foaf:Agent ;
+        rdfs:label  "Columbia Pictures" .
+
+hl:n7097193ee3fefe5  a   oa:Annotation ;
+        dcterms:creator  <https://library.harvard.edu/hfa/ld4l> ;
+        oa:hasBody       hl:n7153950740be20b9 ;
+        oa:motivatedBy   bf:listingCredits .
+
+hl:nedaf570ed9836f60  a  foaf:Agent ;
+        rdfs:label  "Martin Scorsese" .
+
+hl:n562d7af6e66f6a5a  a  bf:Title ;
+        rdfs:label  "Taxi driver - condensed feature" .
