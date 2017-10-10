@@ -1,0 +1,7 @@
+Value,Column,Class
+35mm,HFA Format(s),mi:35mmFilm
+35mm.,HFA Format(s),mi:35mmFilm
+8mm,HFA Format(s),mi:8mmFilm
+8mm.,HFA Format(s),mi:8mmFilm
+Super 8,HFA Format(s),mi:Super8mmFilm
+VHS,HFA Format(s),mi:VHStape
