@@ -1,7 +1,23 @@
 Value,Column,Class
+1-inch video,,mi:1inchVideo
+16mm,,mi:16mmFilm
+16mm.,,mi:16mmFilm
+3/4 inch,,mi:3quarterInchVideo
+3/4-inch,mi:3quarterInchVideo
 35mm,HFA Format(s),mi:35mmFilm
 35mm.,HFA Format(s),mi:35mmFilm
+70mm,,mi:70mmFilm
+70mm.,,mi:70mmFilm
 8mm,HFA Format(s),mi:8mmFilm
 8mm.,HFA Format(s),mi:8mmFilm
+Analog video,,mi:AnalogVideo
+Beta-SP,,mi:BetaSPVideo
+Betamax,,mi:BetamaxVideo
+Digital video,,mi:DigitalVideo
+Hi-8,,mi:Hi8Video
+mini DV,,mi:MiniDVvideo
+S-VHS,,mi:SVHSvideo
 Super 8,HFA Format(s),mi:Super8mmFilm
-VHS,HFA Format(s),mi:VHStape
+VHS,HFA Format(s),mi:VHSvideo
+video 8,,mi:Video8video
+Video 8,,mi:Video8video
