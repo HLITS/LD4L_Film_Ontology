@@ -1,26 +1,27 @@
 Value,Column,Class
 1-inch video,,mi:1inchVideo
-16mm,,mi:16mmFilm
-16mm.,,mi:16mmFilm
-3/4 inch,,mi:3quarterInchVideo
-3/4-inch,mi:3quarterInchVideo
+16mm,HFA Format(s),mi:16mmFilm
+16mm.,HFA Format(s),mi:16mmFilm
+3/4 inch,HFA Format(s),mi:3quarterInchVideo
+3/4-inch,HFA Format(s),mi:3quarterInchVideo
 35mm,HFA Format(s),mi:35mmFilm
 35mm.,HFA Format(s),mi:35mmFilm
-70mm,,mi:70mmFilm
-70mm.,,mi:70mmFilm
+70mm,HFA Format(s),mi:70mmFilm
+70mm.,HFA Format(s),mi:70mmFilm
 8mm,HFA Format(s),mi:8mmFilm
 8mm.,HFA Format(s),mi:8mmFilm
-Analog video,,mi:AnalogVideo
-Beta-SP,,mi:BetaSPVideo
-Betamax,,mi:BetamaxVideo
+Analog video,Original Format,mi:AnalogVideo
+Beta-SP,HFA Format(s),mi:BetaSPVideo
+Betamax,HFA Format(s),mi:BetamaxVideo
+BluRay,HFA Format(s),mi:BluRay
 Digital video,,mi:DigitalVideo
-Hi-8,,mi:Hi8Video
-mini DV,,mi:MiniDVvideo
-S-VHS,,mi:SVHSvideo
+Hi-8,HFA Format(s),mi:Hi8Video
+mini DV,HFA Format(s),mi:MiniDVvideo
+S-VHS,HFA Format(s),mi:SVHSvideo
 Super 8,HFA Format(s),mi:Super8mmFilm
 VHS,HFA Format(s),mi:VHSvideo
-video 8,,mi:Video8video
-Video 8,,mi:Video8video
+video 8,HFA Format(s),mi:Video8video
+Video 8,HFA Format(s),mi:Video8video
 Outtakes,Element,mi:Outtakes
 interpositive,Element,mi:InterpositiveFilm
 Print,Element,mi:PrintFilm
@@ -29,4 +30,3 @@ Preservation Master,Element,mi:PreservationMasterFilm
 work print,Element,mi:WorkPrintFilm
 Film,Format type,mi:Film
 Video,Format type,mi:Video
-
