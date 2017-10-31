@@ -1,5 +1,5 @@
 Value,Column,Class
-1-inch video,,mi:1inchVideo
+1-inch video,HFA Format(s),mi:1inchVideo
 16mm,HFA Format(s),mi:16mmFilm
 16mm.,HFA Format(s),mi:16mmFilm
 3/4 inch,HFA Format(s),mi:3quarterInchVideo
@@ -14,7 +14,7 @@ Analog video,Original Format,mi:AnalogVideo
 Beta-SP,HFA Format(s),mi:BetaSPVideo
 Betamax,HFA Format(s),mi:BetamaxVideo
 BluRay,HFA Format(s),mi:BluRay
-Digital video,,mi:DigitalVideo
+Digital video,Original Format,mi:DigitalVideo
 Hi-8,HFA Format(s),mi:Hi8Video
 mini DV,HFA Format(s),mi:MiniDVvideo
 S-VHS,HFA Format(s),mi:SVHSvideo
