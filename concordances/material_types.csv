@@ -21,3 +21,12 @@ Super 8,HFA Format(s),mi:Super8mmFilm
 VHS,HFA Format(s),mi:VHSvideo
 video 8,,mi:Video8video
 Video 8,,mi:Video8video
+Outtakes,Element,mi:Outtakes
+interpositive,Element,mi:InterpositiveFilm
+Print,Element,mi:PrintFilm
+print,Element,mi:PrintFilm
+Preservation Master,Element,mi:PreservationMasterFilm
+work print,Element,mi:WorkPrintFilm
+Film,Format type,mi:Film
+Video,Format type,mi:Video
+
