@@ -1,10 +1,158 @@
 place name string,geonames URI,gn:name
-Germany,http://sws.geonames.org/2921044,Germany
-France,http://sws.geonames.org/3017382,France
-Poland,http://sws.geonames.org/798544,Poland
-Yugoslavia,http://sws.geonames.org/7500737,Yugoslavia
-United States,http://sws.geonames.org/6252001,United States
-U.S.,http://sws.geonames.org/6252001,United States
-Mauritania,http://sws.geonames.org/2378080,Mauritania
-Algeria,http://sws.geonames.org/2589581,Algeria
-Soviet Union,http://sws.geonames.org/8354411,Soviet Union
+country string,geonames id,normalized label
+Algeria,2589581,Algeria
+Argentina,3865483,Argentina
+Armenia,174982,Armenia
+Austrailia,2077456,Australia
+Australia,2077456,Australia
+Australian,2077456,Australia
+Austria,2782113,Austria
+Bali,1650535,Bali
+Belgium,2802361,Belgium
+Bessie,2261151,Béssié
+Bolivia,3923057,Bolivia
+Bosnia,3277605,Bosnia and Herzegovina
+Bosnia and Herzegovina,3277605,Bosnia and Herzegovina
+Bosnia-Herzegovina,3277605,Bosnia and Herzegovina
+Brazil,3469034,Brazil
+Bulgaria,732800,Bulgaria
+Bulgaria ?,732800,Bulgaria
+Bulgaria [?],732800,Bulgaria
+Bulgarian,732800,Bulgaria
+Burkina Faso,2361809,Burkina Faso
+Cameroon,2233387,Cameroon
+Canada,6251999,Canada
+Canda,11398777,Canda
+Chad,2434508,Chad
+Chile,3895114,Chile
+China,1814991,China
+Colombia,3686110,Colombia
+Costa Rica,3624060,Costa Rica
+Croatia,3202326,Croatia
+Cuba,3562981,Cuba
+Czech Republic,3077311,Czechia
+Czechosalvakia,8505031,Czechoslovakia
+Czechoslovakia,8505031,Czechoslovakia
+Czechoslovakia ?,8505031,Czechoslovakia
+Czechoslovakia[?],8505031,Czechoslovakia
+Czechslovakia,8505031,Czechoslovakia
+Denmark,2623032,Denmark
+Denmark ?,2623032,Denmark
+Denmark?,2623032,Denmark
+Egypt,357994,Egypt
+Ethiopia,337996,Ethiopia
+Federal Republic of Yugoslavia,7500737,Yugoslavia
+Finland,660013,Finland
+France,3017382,France
+French,3017382,France
+Georgia,614540,Georgia
+German,2921044,Germany
+Germany,2921044,Germany
+Germany  ?,2921044,Germany
+Germany (East),8354410,East Germany
+Germany (West),11612754,Bundesrepublik Deutschland (bis 1990)
+Germany[?],2921044,Germany
+Great Britain,2635167,United Kingdom
+Great Britain  (?),2635167,United Kingdom
+Great Britain ?,2635167,United Kingdom
+Great Britain [?],2635167,United Kingdom
+Greece,390903,Greece
+Greece[?],390903,Greece
+Guatmala,3595528,Guatemala
+Guinea,2309096,Equatorial Guinea
+Hong Kong,1819729,Hong Kong
+Hong Kong (China),1819729,Hong Kong
+Hungary,719819,Hungary
+Hungary ?,719819,Hungary
+Hungary[?],719819,Hungary
+Iceland,2629691,Iceland
+India,1269750,India
+Iran,130758,Iran
+Iran ?,130758,Iran
+Ireland,2963597,Ireland
+Israel,294640,Israel
+Italy,3175395,Italy
+Italy ?,3175395,Italy
+Ivory Coast,2287781,Ivory Coast
+Japan,1861060,Japan
+Kenya,192950,Kenya
+Korea,1835841,South Korea
+Latvia,458258,Latvia
+Latvia (USSR),458258,Latvia
+Latvia [?],458258,Latvia
+Latvian,458258,Latvia
+Lebanon,272103,Lebanon
+Lesotho,932692,Lesotho
+Lithuania,597427,Lithuania
+Luxembourg,2960313,Luxembourg
+Mali,2453866,Mali
+Mauritania,2378080,Mauritania
+Mexico,3996063,Mexico
+Nederlands,2750405,Netherlands
+Netherland,2750405,Netherlands
+Netherlands,2750405,Netherlands
+New Guinea,2088628,Papua New Guinea
+New Zealand,2186224,New Zealand
+Nigeria,2328926,Nigeria
+Norway,3144096,Norway
+Palestine,6254930,Palestine
+Peru,3932488,Peru
+Philippines,1694008,Philippines
+Poland,798544,Poland
+Portugal,2264397,Portugal
+Romania,798549,Romania
+Rrance,3017382,France
+Russia,2017370,Russia
+Scotland,2638360,Scotland
+Senegal,2245662,Senegal
+Serbia,8505033,Serbia and Montenegro
+Slovenia,3190538,Slovenia
+South Africa,953987,South Africa
+South Africa ?,953987,South Africa
+South Korea,1835841,South Korea
+Soviet Union,8354411,Soviet Union
+Spain,2510769,Spain
+Spain ?,2510769,Spain
+Sweden,2661886,Sweden
+Switzerland,2658434,Switzerland
+Taiwan,1668284,Taiwan
+Thailand,1605651,Thailand
+The Netherlands,2750405,Netherlands
+Tunisia,2464461,Tunisia
+Turkey,298795,Turkey
+UK,2635167,United Kingdom
+Ukraine,690791,Ukraine
+United Arab Emirates,290557,United Arab Emirates
+United States,6252001,United States
+United States ?,6252001,United States
+United States [?],6252001,United States
+United States[?],6252001,United States
+Uraguay,3439705,Uruguay
+Uruguay,3439705,Uruguay
+US,6252001,United States
+USA,6252001,United States
+USSR,8354411,Soviet Union
+USSR - Latvia,458258,Latvia
+USSR - Ukraine,690791,Ukraine
+USSR ?,8354411,Soviet Union
+USSR (Armeni)a,174982,Armenia
+USSR (Armenia),174982,Armenia
+USSR (Azerbaijan),8303512,Azerbaijan
+USSR (Belarus),630336,Belarus
+USSR (Estonia),453733,Estonia
+USSR (Georgia),614540,Georgia
+USSR (Kazakhstan),1522867,Kazakhstan
+USSR (Kyrgyzstan),1527747,Kyrgyzstan
+USSR (Latvia),458258,Latvia
+USSR (Lithuania),597427,Lithuania
+USSR (Moldova),617790,Moldova
+USSR (Russia),2017370,Russia
+USSR (Ukraine),690791,Ukraine
+USSR (Uzbekistan),1512440,Uzbekistan
+Viaggio in Italia,3175395,Italy
+W Germany,11612754,Bundesrepublik Deutschland (bis 1990)
+W.Germany,11612754,Bundesrepublik Deutschland (bis 1990)
+Wales,2634895,Wales
+West Germany,11612754,Bundesrepublik Deutschland (bis 1990)
+Yugoslavia,7500737,Yugoslavia
+Zimbabwe,878675,Zimbabwe
