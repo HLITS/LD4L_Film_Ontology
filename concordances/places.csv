@@ -1,5 +1,4 @@
-place name string,geonames URI,gn:name
-country string,geonames id,normalized label
+value,geonames ID,label
 Algeria,2589581,Algeria
 Argentina,3865483,Argentina
 Armenia,174982,Armenia
