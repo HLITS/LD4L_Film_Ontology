@@ -1,2 +1,6 @@
 Value,URI,Label
-English,eng,English
+English,http://www.lexvo.org/page/iso639-3/eng,English
+French,http://www.lexvo.org/page/iso639-3/fra,French
+Italian,http://www.lexvo.org/page/iso639-3/ita,Italian
+Russian,http://www.lexvo.org/page/iso639-3/rus,Russian
+Spanish,http://www.lexvo.org/page/iso639-3/spa,Spanish
