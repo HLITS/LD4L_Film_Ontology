@@ -1,4 +1,5 @@
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bib: <http://bibliotek-o.org/ontology/> .
 @prefix mi: <http://data.ld4l.org/harvard/movingimage/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ld4l: <http://bib.ld4l.org/ontology/> .
