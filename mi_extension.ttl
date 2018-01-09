@@ -34,7 +34,7 @@ mi:ImdbNumber a bf:Identifier ;
 # Activity Classes
 # comment out if added to <http://bib.ld4l.org/ontology/> 
 
-mi:ProductionCompanyActivity a bib:Activityy ;
+mi:ProductionCompanyActivity a bib:Activity ;
 	rdfs:label "Purchase" ;
 	rdfs:comment "The activity of purchasing a resource" .
 
