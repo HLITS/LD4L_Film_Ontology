@@ -1,5 +1,8 @@
 Value,Class
 1-inch video,mi:1inchVideo
+1" video,mi:1inchVideo
+1/2" Open Reel Video,mi:HalfInchOpenReelVideo
+1/2" video,,mi:HalfInchVideo
 16mm,mi:16mmFilm
 16mm.,mi:16mmFilm
 3/4 inch,mi:3quarterInchVideo
@@ -10,16 +13,43 @@ Value,Class
 70mm.,mi:70mmFilm
 8mm,mi:8mmFilm
 8mm.,mi:8mmFilm
+16/8 (unslit 8mm),mi:8mmFilm
 Analog video,mi:AnalogVideo
+Beta,mi:BetaVideo
+Beta Digital,mi:BetaDigitalVideo
+Beta SP,mi:BetaSPVideo
 Beta-SP,mi:BetaSPVideo
+BetaSP,mi:BetaSPVideo
+Betacam,mi:Betacam
+Betacam SP,mi:BetacamSP
+BetaCam SP,mi:BetacamSP
 Betamax,mi:BetamaxVideo
 BluRay,mi:BluRay
+D1,mi:D1Video
+D2,mi:D2Video
+D2 Digital video,mi:D2Video
+D5,mi:D5Video
 Digital video,mi:DigitalVideo
+Disc laser,mi:LaserDiscVideo
+DV,mi:DVvideo
+DV Cam, PAL,mi:DVvideo
+DVC,mi:DVvideo
+DVCam,mi:DVvideo
+DVD,mi:DVDvideo
+dvd,mi:DVDvideo
+DVD PAL,mi:DVDvideo
+DVD-R,mi:DVDRvideo
+Hi 8,mi:Hi8Video
 Hi-8,mi:Hi8Video
+Laser Disc,mi:LaserDiscVideo
 mini DV,mi:MiniDVvideo
+Mini-DV,mi:MiniDVvideo
+Mutoscope Reel,mi:MutoscopeFilm
 S-VHS,mi:SVHSvideo
 Super 8,mi:Super8mmFilm
+Super 8 mm,mi:Super8mmFilm
 VHS,mi:VHSvideo
+VHS PAL,mi:VHSvideo
 video 8,mi:Video8video
 Video 8,mi:Video8video
 Outtakes,mi:Outtakes
