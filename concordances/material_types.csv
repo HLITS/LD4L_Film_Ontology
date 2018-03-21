@@ -3,6 +3,10 @@ Value,Class
 "1"" video",mi:1inchVideo
 "1/2"" Open Reel Video",mi:HalfInchOpenReelVideo
 "1/2"" video",mi:HalfInchVideo
+"1/4” audio",mi:QuarterInchAudio
+"1/4” audio recordings",mi:QuarterInchAudio
+"1/4” audio reel",mi:QuarterInchAudio
+"1/4” audio tape",mi:QuarterInchAudio
 16mm,mi:16mmFilm
 16mm.,mi:16mmFilm
 3/4 inch,mi:3quarterInchVideo
