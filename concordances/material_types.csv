@@ -9,6 +9,7 @@ Value,Class
 "1/4” audio tape",mi:QuarterInchAudio
 16mm,mi:16mmFilm
 16mm.,mi:16mmFilm
+17.5 mm,mi:17andHalfFilm
 3/4 inch,mi:3quarterInchVideo
 3/4-inch,mi:3quarterInchVideo
 35mm,mi:35mmFilm
@@ -18,7 +19,22 @@ Value,Class
 8mm,mi:8mmFilm
 8mm.,mi:8mmFilm
 16/8 (unslit 8mm),mi:8mmFilm
+A & B & C rolls,mi:ABCrollFilm
+A & B roll & track neg,mi:ABrollFilm
+A & B Rolls,mi:ABrollFilm
+A & B rolls,mi:ABrollFilm
+A & B rolls & track neg,mi:ABrollFilm
+A & B rolls & trk neg,mi:ABrollFilm
+A and B rolls,mi:ABrollFilm
+A and B Rolls,mi:ABrollFilm
+A, B, & C neg rolls & trk neg,mi:ABCrollFilm
+A& B rolls and Track Negative,mi:ABrollFilm
+A&B rolls,mi:ABrollFilm
 Analog video,mi:AnalogVideo
+answer print,mi:AnswerPrintFilm
+audio recording,mi:Audio
+audio tape,mi:TapeAudio
+Audio tape,mi:TapeAudio
 Beta,mi:BetaVideo
 Beta Digital,mi:BetaDigitalVideo
 Beta SP,mi:BetaSPVideo
@@ -29,12 +45,19 @@ Betacam SP,mi:BetacamSP
 BetaCam SP,mi:BetacamSP
 Betamax,mi:BetamaxVideo
 BluRay,mi:BluRay
+composite master,mi:CompositeMasterFilm
+Composite Master,mi:CompositeMasterFilm
+Composite master print,mi:CompositeMasterFilm
+Composite Negative,mi:CompositeNegativeFilm
 D1,mi:D1Video
 D2,mi:D2Video
 D2 Digital video,mi:D2Video
 D5,mi:D5Video
 Digital video,mi:DigitalVideo
 Disc laser,mi:LaserDiscVideo
+dupe neg pic,mi:DupeNegFilm
+dupe neg pic.,mi:DupeNegFilm
+Dupe neg pic.,mi:DupeNegFilm
 DV,mi:DVvideo
 "DV Cam, PAL",mi:DVvideo
 DVC,mi:DVvideo
@@ -45,10 +68,72 @@ DVD PAL,mi:DVDvideo
 DVD-R,mi:DVDRvideo
 Hi 8,mi:Hi8Video
 Hi-8,mi:Hi8Video
+Fine Grain Master,mi:FineGrainMasterFilm
+Fine Grain Master (B&W positive intermediate),mi:FineGrainMasterFilm
+Fine Grain Master (B&W positive intermediate), Picture Neg., Track Neg.,mi:FineGrainMasterFilm
+Fine Grain Master (B&W),mi:FineGrainMasterFilm
+Inter Negative Track,mi:InternegativeFilm
+interneg,mi:InternegativeFilm
+Interneg,mi:InternegativeFilm
+Interneg & Track Neg,mi:InternegativeFilm
+Interneg & trk neg,mi:InternegativeFilm
+Interneg and track,mi:InternegativeFilm
+interneg, negative track,mi:InternegativeFilm
+Internegative,mi:InternegativeFilm
+internegative,mi:InternegativeFilm
+Internegative & trk neg,mi:InternegativeFilm
+interpositive,mi:InternegativeFilm
+Interpositive,mi:InternegativeFilm
+Interpositive,mi:InternegativeFilm
+Interpositive (color positive intermediate),mi:InternegativeFilm
+Interpositive Print,mi:InternegativeFilm
+Lab print,mi:LabPrintFilm
 Laser Disc,mi:LaserDiscVideo
+Mag outs,mi:MagAudio
+Mag track,mi:MagAudio
+Mag Track,mi:MagAudio
+mag track,mi:MagAudio
+Mag Track,mi:MagAudio
+Master,mi:MasterPrintFilm
+Master - print,mi:MasterPrintFilm
+master pos pic.,mi:MasterPrintFilm
+Master Positive,mi:MasterPrintFilm
+master positive,mi:MasterPrintFilm
 mini DV,mi:MiniDVvideo
 Mini-DV,mi:MiniDVvideo
 Mutoscope Reel,mi:MutoscopeFilm
+Original Camera Neg,mi:OriginalCameraNegFilm
+Original Camera Neg, A&B rolls,mi:OriginalCameraNegFilm
+Original Camera Negative [OCN],mi:OriginalCameraNegFilm
+Original Camera Reversal,mi:OriginalCameraReversalFilm
+Original Camera Reversal [OCR],mi:OriginalCameraReversalFilm
+original reversal,mi:OriginalCameraReversalFilm
+Original Reversal Positive,mi:OriginalCameraReversalFilm
+Original Sound Recording,mi:OriginalAudio
+Original Material - other,mi:PreprintMaterial
+Original Material - Other,mi:PreprintMaterial
+Outtakes,mi:OuttakeFilm
+Outtakes - neg,mi:OuttakeFilm
+Outtakes - pos,mi:OuttakeFilm
+Outtakes - pos,mi:OuttakeFilm
+Pic Neg,mi:NegativeFilm
+Pic Neg and Track Neg,mi:NegativeFilm
+Pic Negative,mi:NegativeFilm
+Pic Negative,mi:NegativeFilm
+Pic Negative -- titles,mi:NegativeFilm
+Pic Negative (Dupe),mi:NegativeFilm,mi:NegativeFilm
+Pic Negative (Dupe) & Optical Track neg,mi:NegativeFilm
+Pic Negative & Track Negative,mi:NegativeFilm
+Pic Positive,mi:Film
+Pic Positive & Negative,mi:Film
+Picture Master,mi:PositiveMasterFilm
+Picture Positive,mi:Film
+Picture Positive & Mag Track,mi:Film
+Positive Print,mi:PrintFilm
+positive titles,mi:Film
+positive track,mi:Film
+Pix neg,mi:NegativeFilm
+Positive Master - other,mi:PositiveMasterFilm
 S-VHS,mi:SVHSvideo
 Super 8,mi:Super8mmFilm
 Super 8 mm,mi:Super8mmFilm
@@ -61,6 +146,27 @@ interpositive,mi:InterpositiveFilm
 Print,mi:PrintFilm
 print,mi:PrintFilm
 Preservation Master,mi:PreservationMasterFilm
+Preservation master,mi:Pres,mi:PreservationMasterFilmervationMasterFilm
+Preservation Master,mi:PreservationMasterFilm
+Preservation Master Print,mi:PreservationMasterFilm
+Print,mi:PrintFilm
+print,mi:PrintFilm
+reversal pic,mi:ReversalFilm
+Reversal Pic,mi:ReversalFilm
+Reversal pic,mi:ReversalFilm
+reversal pic & mag track,mi:ReversalFilm
+reversal pic & Mag Track,mi:ReversalFilm
+reversal pic master & mag trk,mi:ReversalFilm
+Reversal print,mi:ReversalFilm
+reversal sound footage,mi:ReversalFilm
+reversal work print & mag track,mi:ReversalFilm
+screening copy,mi:FilmPrint
+work print,mi:WorkPrintFilm
+Sound Recording,mi:Audio
+Sound recording,mi:Audio
+Video master,mi:MasterVideo
+Video Master,mi:MasterVideo
+video master,mi:MasterVideo
 work print,mi:WorkPrintFilm
 Film,mi:Film
 Video,mi:Video
