@@ -59,35 +59,29 @@ Wolof,http://www.lexvo.org/page/iso639-3/wol,Wolof
 German, Austrian,http://www.lexvo.org/page/iso639-3/deu,German
 Finnish,http://www.lexvo.org/page/iso639-3/fin,Finnish
 Hakka,http://www.lexvo.org/page/iso639-3/hak,Hakka Chinese
-Hindi	2
-Hindi/Eng./Bengali/Punjabi	1
-Hungarian	58
-Hungary	1
-Icelandic	1
-Indian	5
-Inuktitut	4
-Inuktitut 	1
-Inuktitut, English	1
-Iranian	1
-Irish	10
-Itailian/English	1
-Italy	3
-Japan	2
-Kazak 	1
-Kazakh, Russian	1
-Korean	25
-Lithuanian	3
-Mandarin, Taiwanese	1
-Persian	2
-Persian, English, Pashtu, Polish	1
-Portugese	7
-Portuguese	18
-Portuguese 	1
-Romanian	1
-Russian, Armenian, Turkmen, Azerbaijani, Italian	1
-Russian, Latvian	1
-Scotch Gaelic and English	1
-Slovenian	1
-Spanish, Quechua, English	1
-Ukraine	1
-Ukrainian	37
+Hindi,http://www.lexvo.org/page/iso639-3/hin,Hindo
+Eng.,http://www.lexvo.org/page/iso639-3/eng,English
+Bengali,http://www.lexvo.org/page/iso639-3/ben,Bengali
+Punjabi,http://www.lexvo.org/page/iso639-3/pan,Panjabi
+Hungarian,http://www.lexvo.org/page/iso639-3/hun,Hungarian
+Hungary,http://www.lexvo.org/page/iso639-3/hun,Hungarian
+Icelandic,http://www.lexvo.org/page/iso639-3/isl,Icelandic
+Inuktitut,http://www.lexvo.org/page/iso639-3/iku,Inuktitut
+Irish,http://www.lexvo.org/page/iso639-3/gle,Irish
+Itailian,http://www.lexvo.org/page/iso639-3/ita,Italian
+Italy,http://www.lexvo.org/page/iso639-3/ita,Italian
+Japan,http://www.lexvo.org/page/iso639-3/jpn,Japanese
+Kazak,http://www.lexvo.org/page/iso639-3/kaz,Kazakh
+Kazakh,http://www.lexvo.org/page/iso639-3/kaz,Kazakh
+Lithuanian,http://www.lexvo.org/page/iso639-3/lit,Lithuanian
+Persian,http://www.lexvo.org/page/iso639-3/fas,Persian
+Pashtu,http://www.lexvo.org/page/iso639-3/pus,Pushto
+Portugese,http://www.lexvo.org/page/iso639-3/por,Portuguese
+Romanian,http://www.lexvo.org/page/iso639-3/ron,Romanian
+Turkmen,http://www.lexvo.org/page/iso639-3/tuk,Turkmen
+Latvian,http://www.lexvo.org/page/iso639-3/lav,Latvian
+Scotch Gaelic,http://www.lexvo.org/page/iso639-3/gla,Scottish Gaelic
+Slovenian,http://www.lexvo.org/page/iso639-3/slv,Slovenian
+Quechua,http://www.lexvo.org/page/iso639-3/que,Quechua
+Ukraine,http://www.lexvo.org/page/iso639-3/ukr,Ukrainian
+Ukrainian,http://www.lexvo.org/page/iso639-3/ukr,Ukrainian
