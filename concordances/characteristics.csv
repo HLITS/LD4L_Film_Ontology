@@ -29,6 +29,9 @@ cropped format,Cautions,mi:Cropped
 dual system,Cautions,mi:DualSystem
 pink,Cautions,mi:Pink
 B/W,B/W-Color,mi:BW
+B&W,B/W-Color,mi:BW
+Black and White,B/W-Color,mi:BW
+B&W B/W,B/W-Color,mi:BW
 Color,B/W-Color,mi:Color
 IB Technicolor,B/W-Color,mi:IBtechnicolor
 B/W and Color,B/W-Color,mi:BWcolor
