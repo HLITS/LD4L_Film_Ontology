@@ -8,6 +8,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix rdacc: <http://rdaregistry.info/termList/RDAColourContent/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
 
 # Classes
 
@@ -194,10 +195,14 @@ mi:Reversal a mi:ColorCharacteristic ;
 # Properties
 
 mi:intertitleLanguage rdfs:subPropertyOf dcterms:language ;
-    rdfs:label "intertitle language" .
+    rdfs:label "has intertitle language" .
 
 mi:spokenLanguage rdfs:subPropertyOf dcterms:language ;
-    rdfs:label "spoken language" .
+    rdfs:label "has spoken language" .
 
 mi:subtitleLanguage rdfs:subPropertyOf dcterms:language ;
-    rdfs:label "subtitle language" .
+    rdfs:label "has subtitle language" .
+
+mi:isPromotionFor rdfs:subPropertyOf rdau:P60305 ;
+    rdfs:label "is promotion for" ;
+    rdfs:comment "is a trailer, advertisement, or other promotional material derived from or about a resource" .
